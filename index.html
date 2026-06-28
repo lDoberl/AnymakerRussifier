@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anymaker Russifier</title>
+<meta name="description" content="Русификатор Anymaker (Demo): полный перевод интерфейса, предметов и компонентов с выбором категорий и откатом в один клик.">
+<meta property="og:title" content="Anymaker Russifier">
+<meta property="og:description" content="Полная русификация Anymaker (Demo) с выбором категорий и откатом в один клик.">
+<meta property="og:image" content="https://ldoberl.github.io/AnymakerRussifier/icon.png">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#111827;color:#f3f4f6;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;line-height:1.6}
+a{color:#22c55e;text-decoration:none}
+.container{max-width:1100px;margin:50px auto;padding:0 20px}
+/* top nav */
+.topbar{position:fixed;top:0;left:0;right:0;display:flex;justify-content:space-between;padding:14px 20px;z-index:10}
+.navbtn{background:#1f2937;color:#f3f4f6;border:1px solid #374151;border-radius:10px;padding:9px 16px;font-size:14px;cursor:pointer;font-family:inherit;transition:.2s}
+.navbtn:hover{border-color:#22c55e;color:#22c55e}
+/* hero */
+header.hero{text-align:center;padding:96px 20px 40px}
+header.hero img{width:110px;height:110px;border-radius:22px;animation:glow 2.6s ease-in-out infinite}
+header.hero h1{font-size:2.8em;margin:18px 0 8px;color:#22c55e}
+header.hero p.tag{color:#9ca3af;font-size:1.15em;max-width:660px;margin:0 auto 26px}
+.cta{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+a.button{background:#22c55e;color:#111827;border-radius:10px;padding:14px 28px;font-weight:700;font-size:1.05em;display:inline-flex;align-items:center;gap:8px;transition:.2s}
+a.button:hover{background:#16a34a;transform:scale(1.05)}
+a.button.alt{background:#1f2937;color:#f3f4f6;border:2px solid #22c55e}
+a.button.alt:hover{background:#22c55e;color:#111827}
+.badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:18px 0 28px}
+.badge{font-size:.8em;color:#9ca3af;border:1px solid #374151;border-radius:30px;padding:4px 12px}
+h2{font-size:1.8em;color:#22c55e;margin-bottom:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.feature-card{background:#111827;border:2px solid #22c55e;border-radius:12px;padding:20px}
+.feature-card h3{color:#22c55e;font-size:1.15em;margin-bottom:8px}
+.feature-card p{color:#9ca3af}
+.panel{background:#1f2937;border:1px solid #374151;border-radius:12px;padding:22px}
+.warn{border:1px solid #b91c1c;border-left:5px solid #ef4444;background:rgba(239,68,68,.08)}
+.warn b{color:#f87171}
+ol,ul{margin:8px 0 0 22px;color:#9ca3af}li{margin:6px 0}
+code{background:#0b0f1a;border:1px solid #374151;border-radius:6px;padding:1px 6px;color:#22c55e;font-family:Consolas,monospace}
+pre{background:#0b0f1a;border:1px solid #374151;border-radius:10px;padding:16px;overflow:auto;color:#e5e7eb;font-family:Consolas,monospace;font-size:.9em;margin-top:12px}
+section{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
+section.visible{opacity:1;transform:none}
+footer{text-align:center;color:#9ca3af;border-top:1px solid #374151;padding:34px 20px 60px;margin-top:30px;font-size:.9em}
+.small{font-size:.85em;color:#6b7280;margin-top:10px}
+.lang-en{display:none}
+body.en .lang-ru{display:none}
+body.en .lang-en{display:inline}
+@keyframes glow{0%,100%{box-shadow:0 0 0 rgba(34,197,94,0)}50%{box-shadow:0 0 20px rgba(34,197,94,.7)}}
+@media(max-width:600px){header.hero h1{font-size:2.1em}}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <a class="navbtn" href="https://github.com/lDoberl/anymaker-unlock">↗ Anymaker Unlock</a>
+  <button class="navbtn" id="langToggle">EN</button>
+</div>
+
+<header class="hero">
+  <img src="icon.png" alt="Anymaker Russifier">
+  <h1>Anymaker Russifier</h1>
+  <p class="tag">
+    <span class="lang-ru">Полная русификация игры Anymaker (Demo). Выбор категорий перевода галочками и откат в один клик.</span>
+    <span class="lang-en">Full Russian translation for Anymaker (Demo). Pick what to translate with checkboxes, and roll back in one click.</span>
+  </p>
+  <div class="cta">
+    <a class="button" href="https://github.com/lDoberl/AnymakerRussifier/releases/latest">⬇ <span class="lang-ru">Скачать .exe</span><span class="lang-en">Download .exe</span></a>
+    <a class="button alt" href="https://github.com/lDoberl/AnymakerRussifier">★ <span class="lang-ru">Исходники</span><span class="lang-en">Source</span></a>
+  </div>
+  <div class="badges">
+    <span class="badge">🪟 Windows</span><span class="badge">🐍 Python · Tkinter</span><span class="badge">⚖️ MIT</span><span class="badge">📦 .exe</span><span class="badge">🎮 v0.0.26</span>
+  </div>
+</header>
+
+<div class="container">
+
+  <section>
+    <h2><span class="lang-ru">Возможности</span><span class="lang-en">Features</span></h2>
+    <div class="grid">
+      <div class="feature-card">
+        <h3><span class="lang-ru">Полный перевод интерфейса</span><span class="lang-en">Full UI translation</span></h3>
+        <p><span class="lang-ru">Меню, настройки, подсказки, тултипы, категории, подсказки управления и ошибки скриптинга — на русском.</span><span class="lang-en">Menus, settings, hints, tooltips, categories, control hints and scripting errors — in Russian.</span></p>
+      </div>
+      <div class="feature-card">
+        <h3><span class="lang-ru">Выбор категорий галочками</span><span class="lang-en">Category checkboxes</span></h3>
+        <p><span class="lang-ru">Интерфейс, предметы, компоненты транспорта, существа — отмечайте только то, что нужно перевести.</span><span class="lang-en">Interface, items, vehicle components, creatures — tick only what you want translated.</span></p>
+      </div>
+      <div class="feature-card">
+        <h3><span class="lang-ru">Модули микроконтроллера</span><span class="lang-en">Microcontroller blocks</span></h3>
+        <p><span class="lang-ru">Блоки (если, повторить…) можно оставить английскими — удобно для написания скриптов.</span><span class="lang-en">The blocks (if, repeat…) can stay English — handy for writing scripts.</span></p>
+      </div>
+      <div class="feature-card">
+        <h3><span class="lang-ru">Перевод контента</span><span class="lang-en">Translated content</span></h3>
+        <p><span class="lang-ru">Названия предметов, компонентов транспорта, существ и животных.</span><span class="lang-en">Names of items, vehicle components, creatures and animals.</span></p>
+      </div>
+      <div class="feature-card">
+        <h3><span class="lang-ru">Откат в один клик</span><span class="lang-en">One-click rollback</span></h3>
+        <p><span class="lang-ru">Кнопка «Вернуть оригинал» полностью возвращает игру к английскому.</span><span class="lang-en">The "Revert" button fully restores the game to English.</span></p>
+      </div>
+      <div class="feature-card">
+        <h3><span class="lang-ru">Авто-определение</span><span class="lang-en">Auto-detect</span></h3>
+        <p><span class="lang-ru">Папка игры находится автоматически (через библиотеки Steam) — ничего вписывать вручную не нужно.</span><span class="lang-en">The game folder is detected automatically (via Steam libraries) — no manual input needed.</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="lang-ru">Как это работает</span><span class="lang-en">How it works</span></h2>
+    <div class="panel">
+      <p><span class="lang-ru">Активный язык в движке — это глобальная константа в <code>bin/game.gcl</code>. Русификатор меняет <b>один байт</b> (английский → русский) с проверкой сигнатуры функции, а тексты берёт из файлов данных:</span><span class="lang-en">The active language is a global constant in <code>bin/game.gcl</code>. The russifier flips <b>one byte</b> (English → Russian) after verifying a function signature, and the text comes from data files:</span></p>
+      <pre>bin/game.gcl                        → 1 байт: язык EN → RU
+rom/languages.tsv                   → интерфейс (колонка ru)
+rom/data/*.json                     → названия предметов / компонентов / существ</pre>
+      <p class="small"><span class="lang-ru">Приложение содержит обе версии файлов (русскую и английскую), поэтому переключение работает в любую сторону независимо от текущего состояния.</span><span class="lang-en">The app bundles both versions of the files (Russian and English), so switching works either way regardless of the current state.</span></p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="lang-ru">Что переводится</span><span class="lang-en">What's translated</span></h2>
+    <div class="panel">
+      <ul>
+        <li>✅ <span class="lang-ru">Интерфейс и меню</span><span class="lang-en">Interface &amp; menus</span></li>
+        <li>✅ <span class="lang-ru">Модули микроконтроллера (опционально)</span><span class="lang-en">Microcontroller blocks (optional)</span></li>
+        <li>✅ <span class="lang-ru">Предметы</span><span class="lang-en">Items</span></li>
+        <li>✅ <span class="lang-ru">Компоненты транспорта</span><span class="lang-en">Vehicle components</span></li>
+        <li>✅ <span class="lang-ru">Существа и животные</span><span class="lang-en">Creatures &amp; animals</span></li>
+      </ul>
+    </div>
+    <div class="panel warn" style="margin-top:16px">
+      <p><span class="lang-ru"><b>Остаётся английским:</b> внутриигровая книга-руководство (использует шрифт без кириллицы) и карточки экрана «Новая игра» (текст зашит прямо в бинарник игры).</span><span class="lang-en"><b>Stays English:</b> the in-world manual book (uses a font without Cyrillic glyphs) and the "New Game" screen cards (text is hardcoded in the game binary).</span></p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="lang-ru">Быстрый старт</span><span class="lang-en">Quick start</span></h2>
+    <div class="panel">
+      <p><b><span class="lang-ru">Готовый .exe:</span><span class="lang-en">Prebuilt .exe:</span></b></p>
+      <ol>
+        <li><span class="lang-ru">Закрой игру.</span><span class="lang-en">Close the game.</span></li>
+        <li><span class="lang-ru">Запусти AnymakerRussifier.exe из <a href="https://github.com/lDoberl/AnymakerRussifier/releases/latest">релизов</a>.</span><span class="lang-en">Run AnymakerRussifier.exe from <a href="https://github.com/lDoberl/AnymakerRussifier/releases/latest">releases</a>.</span></li>
+        <li><span class="lang-ru">Отметь категории → «Русифицировать». «Вернуть оригинал» — откат.</span><span class="lang-en">Tick the categories → "Russify". "Revert" restores the original.</span></li>
+        <li><span class="lang-ru">Запусти игру.</span><span class="lang-en">Launch the game.</span></li>
+      </ol>
+      <p style="margin-top:14px"><b><span class="lang-ru">Сборка из исходника:</span><span class="lang-en">Build from source:</span></b></p>
+      <pre>pip install pyinstaller
+build.bat</pre>
+      <p class="small"><span class="lang-ru">SmartScreen/антивирус может предупредить о неизвестном издателе — это нормально для неподписанных self-built exe.</span><span class="lang-en">SmartScreen/antivirus may warn about an unknown publisher — normal for unsigned self-built executables.</span></p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="lang-ru">Дисклеймер</span><span class="lang-en">Disclaimer</span></h2>
+    <div class="feature-card">
+      <p><span class="lang-ru">Неофициальный фанатский проект, не связанный с разработчиками Anymaker. Изменяет только локальные файлы игры и создаёт резервные копии. Steam «Проверка целостности файлов игры» всегда вернёт оригинал.</span><span class="lang-en">An unofficial fan project, not affiliated with the Anymaker developers. Edits only your local game files and makes backups. Steam's "Verify integrity of game files" always restores the original.</span></p>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <span class="lang-ru">© 2026 lDoberl. Лицензия <a href="https://github.com/lDoberl/AnymakerRussifier/blob/main/LICENSE">MIT</a>. · <a href="https://github.com/lDoberl/AnymakerRussifier">GitHub</a></span>
+  <span class="lang-en">© 2026 lDoberl. Licensed under <a href="https://github.com/lDoberl/AnymakerRussifier/blob/main/LICENSE">MIT</a>. · <a href="https://github.com/lDoberl/AnymakerRussifier">GitHub</a></span>
+</footer>
+
+<script>
+  // язык (переключаем класс на body — надёжно поверх CSS)
+  document.getElementById('langToggle').addEventListener('click',function(){
+    var en=document.body.classList.toggle('en');
+    this.textContent=en?'RU':'EN';
+    document.documentElement.lang=en?'en':'ru';
+  });
+  // появление секций при скролле
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){if(en.isIntersecting)en.target.classList.add('visible');});
+  },{threshold:.12});
+  document.querySelectorAll('section').forEach(function(s){io.observe(s);});
+</script>
+</body>
+</html>
