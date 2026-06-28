@@ -1,0 +1,10 @@
+# Файлы-ассеты копируются в игру побайтово — никаких преобразований переносов строк.
+src/assets/** -text
+*.tsv -text
+*.json -text
+*.exe binary
+*.ico binary
+*.png binary
+
+# Остальное — по умолчанию
+* text=auto

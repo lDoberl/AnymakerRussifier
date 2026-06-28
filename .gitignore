@@ -1,0 +1,23 @@
+# PyInstaller / build artifacts
+build/
+dist/
+*.spec
+*.manifest
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+russifier_startup.log

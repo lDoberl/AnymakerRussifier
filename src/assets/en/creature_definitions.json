@@ -1,0 +1,846 @@
+{
+    "definitions": [
+        {
+            "id": "black_bear",
+            "name": "Black Bear",
+            "behaviour_type": "predator",
+            "move_speed_crouch": 0.7,
+            "move_speed_walk": 2.2,
+            "move_speed_run": 8.0,
+            "anim_factor_walk": 0.7,
+            "anim_factor_run": 0.4,
+            "phys_compression_max": 0.35,
+            "sfx_idle": "mammal_bear_black_idle",
+            "sfx_breath": "mammal_bear_black_breath",
+            "sfx_alert": "mammal_bear_black_alert",
+            "sfx_attack": "mammal_bear_black_attack",
+            "sfx_pain": "mammal_bear_black_pain",
+            "sfx_perish": "mammal_bear_black_perish",
+            "sfx_footstep_walk": "paw_c_dirt_walk",
+            "sfx_footstep_run": "paw_c_dirt_run",
+            "attack_damage": 0.15,
+            "attack_knockback": 300.0,
+            "maximum_blood": 3.0,
+            "eye_shine_offset": [
+                0.06,
+                0.03,
+                0.19
+            ],
+            "eye_shine_scale": 0.02,
+            "eye_shine_color": [
+                180,
+                255,
+                180,
+                255
+            ],
+            "mesh_static": {
+                "path": "meshes/animals/animal_black_bear/black_bear.mesh"
+            }
+        },
+        {
+            "id": "bald_eagle",
+            "name": "Bald Eagle",
+            "anim": "animations/animal_bald_eagle/animal_bald_eagle/bald_eagle.anim",
+            "anim_class": "bird",
+            "spawn_group_size": 0,
+            "move_speed_run": 4.0,
+            "phys_capsule_radius": 0.1,
+            "phys_capsule_length": 0.2,
+            "maximum_blood": 0.8,
+            "mesh_static": {
+                "path": "meshes/animals/animal_bald_eagle/bald_eagle.mesh"
+            }
+        },
+        {
+            "id": "opossum",
+            "name": "Opossum",
+            "anim": "animations/animal_opossum/animal_opossum/opossum.anim",
+            "spawn_group_size": 3,
+            "move_speed_crouch": 1.0,
+            "move_speed_walk": 1.6,
+            "move_speed_run": 4.5,
+            "anim_factor_crouch": 2.0,
+            "anim_factor_walk": 1.2,
+            "phys_capsule_radius": 0.05,
+            "phys_capsule_length": 0.1,
+            "phys_compression_max": 0.05,
+            "sfx_idle": "mammal_possum_idle",
+            "sfx_breath": "mammal_possum_breath",
+            "sfx_alert": "mammal_possum_alert",
+            "sfx_attack": "mammal_possum_attack",
+            "sfx_pain": "mammal_possum_pain",
+            "sfx_perish": "mammal_possum_perish",
+            "sfx_footstep_walk": "paw_a_dirt_walk",
+            "sfx_footstep_run": "paw_a_dirt_run",
+            "maximum_blood": 0.4,
+            "eye_shine_offset": [
+                0.014,
+                -0.02,
+                0.0421
+            ],
+            "eye_shine_scale": 0.015,
+            "eye_shine_color": [
+                255,
+                60,
+                30,
+                255
+            ],
+            "mesh_static": {
+                "path": "meshes/animals/animal_opossum/opossum.mesh"
+            }
+        },
+        {
+            "id": "alaska_mountain_goat",
+            "name": "Alaska Mountain Goat",
+            "anim": "animations/animal_alaska_mountain_goat/animal_alaska_mountain_goat/alaska_mountain_goat.anim",
+            "spawn_group_size": 0,
+            "move_speed_run": 6.5,
+            "anim_factor_walk": 0.7,
+            "anim_factor_run": 0.5,
+            "phys_capsule_radius": 0.3,
+            "phys_compression_max": 0.35,
+            "sfx_footstep_walk": "hoof_b_dirt_walk",
+            "sfx_footstep_run": "hoof_b_dirt_run",
+            "eye_shine_offset": [
+                0.082,
+                0.015,
+                0.102
+            ],
+            "eye_shine_scale": 0.025,
+            "eye_shine_color": [
+                120,
+                255,
+                120,
+                255
+            ],
+            "mesh_static": {
+                "path": "meshes/animals/animal_alaska_mountain_goat/alaska_mountain_goat.mesh"
+            }
+        },
+        {
+            "id": "alaska_reindeer",
+            "name": "Alaska Reindeer",
+            "anim": "animations/animal_alaska_reindeer/animal_alaska_reindeer/alaska_reindeer.anim",
+            "spawn_group_size": 0,
+            "move_speed_run": 7.5,
+            "anim_factor_walk": 0.65,
+            "anim_factor_run": 0.3,
+            "phys_capsule_radius": 0.4,
+            "phys_compression_max": 0.5,
+            "sfx_footstep_walk": "hoof_b_dirt_walk",
+            "sfx_footstep_run": "hoof_b_dirt_run",
+            "maximum_blood": 2.0,
+            "eye_shine_offset": [
+                0.116,
+                -0.02,
+                0.16
+            ],
+            "eye_shine_scale": 0.03,
+            "eye_shine_color": [
+                160,
+                180,
+                255,
+                255
+            ],
+            "mesh_static": {
+                "path": "meshes/animals/animal_alaska_reindeer/alaska_reindeer.mesh"
+            }
+        },
+        {
+            "id": "arctic_fox",
+            "name": "Arctic Fox",
+            "anim": "animations/animal_arctic_fox/animal_arctic_fox/arctic_fox.anim",
+            "spawn_group_size": 0,
+            "move_speed_run": 6.0,
+            "anim_factor_run": 0.8,
+            "phys_capsule_radius": 0.1,
+            "phys_capsule_length": 0.3,
+            "phys_compression_max": 0.1,
+            "sfx_footstep_walk": "paw_a_dirt_walk",
+            "sfx_footstep_run": "paw_a_dirt_run",
+            "attack_damage": 0.025,
+            "attack_jump_force": 100.0,
+            "attack_knockback": 200.0,
+            "eye_shine_offset": [
+                0.027,
+                -0.013,
+                0.046
+            ],
+            "eye_shine_scale": 0.01,
+            "eye_shine_color": [
+                255,
+                130,
+                30,
+                255
+            ],
+            "mesh_static": {
+                "path": "meshes/animals/animal_arctic_fox/arctic_fox.mesh"
+            }
+        },
+        {
+            "id": "bighorn_sheep",
+            "name": "Bighorn Sheep",
+            "anim": "animations/animal_bighorn_sheep/animal_bighorn_sheep/bighorn_sheep.anim",
+            "spawn_group_size": 5,
+            "move_speed_run": 7.5,
+            "anim_factor_run": 0.4,
+            "phys_capsule_radius": 0.3,
+            "phys_capsule_length": 0.5,
+            "sfx_idle": "mammal_sheep_idle",
+            "sfx_breath": "mammal_sheep_breath",
+            "sfx_alert": "mammal_sheep_alert",
+            "sfx_pain": "mammal_sheep_pain",
+            "sfx_perish": "mammal_sheep_perish",
+            "sfx_footstep_walk": "hoof_a_dirt_walk",
+            "sfx_footstep_run": "hoof_a_dirt_run",
+            "eye_shine_offset": [
+                0.109,
+                0.056,
+                0.105
+            ],
+            "eye_shine_scale": 0.025,
+            "eye_shine_color": [
+                120,
+                255,
+                120,
+                255
+            ],
+            "mesh_static": {
+                "path": "meshes/animals/animal_bighorn_sheep/bighorn_sheep.mesh"
+            }
+        },
+        {
+            "id": "black_tailed_deer",
+            "name": "Black Tailed Deer",
+            "anim": "animations/animal_black_tailed_deer/animal_black_tailed_deer/black_tailed_deer.anim",
+            "spawn_group_size": 5,
+            "move_speed_run": 8.5,
+            "anim_factor_run": 0.4,
+            "phys_compression_max": 0.5,
+            "sfx_idle": "mammal_deer_idle",
+            "sfx_breath": "mammal_deer_breath",
+            "sfx_alert": "mammal_deer_alert",
+            "sfx_pain": "mammal_deer_pain",
+            "sfx_perish": "mammal_deer_perish",
+            "sfx_footstep_walk": "hoof_a_dirt_walk",
+            "sfx_footstep_run": "hoof_a_dirt_run",
+            "maximum_blood": 2.0,
+            "eye_shine_offset": [
+                0.067,
+                0.078,
+                0.085
+            ],
+            "eye_shine_scale": 0.024,
+            "eye_shine_color": [
+                180,
+                255,
+                180,
+                255
+            ],
+            "mesh_static": {
+                "path": "meshes/animals/animal_black_tailed_deer/black_tailed_deer.mesh"
+            }
+        },
+        {
+            "id": "bobcat",
+            "name": "Bobcat",
+            "anim": "animations/animal_bobcat/animal_bobcat/bobcat.anim",
+            "behaviour_type": "predator",
+            "move_speed_crouch": 0.7,
+            "move_speed_run": 7.0,
+            "anim_factor_crouch": 1.2,
+            "anim_factor_walk": 0.9,
+            "anim_factor_run": 0.5,
+            "phys_capsule_length": 0.4,
+            "phys_compression_max": 0.3,
+            "sfx_idle": "mammal_bobcat_idle",
+            "sfx_breath": "mammal_bobcat_breath",
+            "sfx_alert": "mammal_bobcat_alert",
+            "sfx_attack": "mammal_bobcat_attack",
+            "sfx_pain": "mammal_bobcat_pain",
+            "sfx_perish": "mammal_bobcat_perish",
+            "sfx_footstep_walk": "paw_a_dirt_walk",
+            "sfx_footstep_run": "paw_a_dirt_run",
+            "attack_jump_force": 100.0,
+            "attack_knockback": 200.0,
+            "maximum_blood": 1.5,
+            "eye_shine_offset": [
+                0.045,
+                0.009,
+                0.086
+            ],
+            "eye_shine_scale": 0.015,
+            "eye_shine_color": [
+                120,
+                255,
+                120,
+                255
+            ],
+            "mesh_static": {
+                "path": "meshes/animals/animal_bobcat/bobcat.mesh"
+            }
+        },
+        {
+            "id": "canada_goose",
+            "name": "Canada Goose",
+            "anim": "animations/animal_canada_goose/animal_canada_goose/canada_goose.anim",
+            "anim_class": "bird",
+            "spawn_group_size": 0,
+            "move_speed_run": 4.0,
+            "maximum_blood": 0.8,
+            "mesh_static": {
+                "path": "meshes/animals/animal_canada_goose/canada_goose.mesh"
+            }
+        },
+        {
+            "id": "coyote",
+            "name": "Coyote",
+            "anim": "animations/animal_coyote/animal_coyote/coyote.anim",
+            "behaviour_type": "predator",
+            "spawn_group_size": 0,
+            "move_speed_run": 8.0,
+            "anim_factor_crouch": 1.7,
+            "anim_factor_walk": 0.7,
+            "anim_factor_run": 0.5,
+            "phys_capsule_radius": 0.15,
+            "phys_capsule_length": 0.4,
+            "phys_compression_max": 0.2,
+            "sfx_footstep_walk": "paw_b_dirt_walk",
+            "sfx_footstep_run": "paw_b_dirt_run",
+            "attack_damage": 0.05,
+            "attack_jump_force": 100.0,
+            "attack_knockback": 200.0,
+            "maximum_blood": 1.5,
+            "eye_shine_offset": [
+                0.033,
+                0.024,
+                0.082
+            ],
+            "eye_shine_scale": 0.01,
+            "eye_shine_color": [
+                180,
+                255,
+                100,
+                255
+            ],
+            "mesh_static": {
+                "path": "meshes/animals/animal_coyote/coyote.mesh"
+            }
+        },
+        {
+            "id": "golden_eagle",
+            "name": "Golden Eagle",
+            "anim": "animations/animal_golden_eagle/animal_golden_eagle/golden_eagle.anim",
+            "anim_class": "bird",
+            "spawn_group_size": 0,
+            "move_speed_run": 4.0,
+            "maximum_blood": 0.8,
+            "mesh_static": {
+                "path": "meshes/animals/animal_golden_eagle/golden_eagle.mesh"
+            }
+        },
+        {
+            "id": "gray_fox",
+            "name": "Gray Fox",
+            "anim": "animations/animal_gray_fox/animal_gray_fox/gray_fox.anim",
+            "spawn_group_size": 0,
+            "move_speed_run": 6.5,
+            "anim_factor_run": 0.7,
+            "phys_capsule_radius": 0.1,
+            "phys_capsule_length": 0.3,
+            "phys_compression_max": 0.1,
+            "sfx_footstep_walk": "paw_a_dirt_walk",
+            "sfx_footstep_run": "paw_a_dirt_run",
+            "maximum_blood": 0.8,
+            "eye_shine_offset": [
+                0.023,
+                0.004,
+                0.058
+            ],
+            "eye_shine_scale": 0.009,
+            "eye_shine_color": [
+                255,
+                60,
+                30,
+                255
+            ],
+            "mesh_static": {
+                "path": "meshes/animals/animal_gray_fox/gray_fox.mesh"
+            }
+        },
+        {
+            "id": "grizzly_bear",
+            "name": "Grizzly Bear",
+            "anim": "animations/animal_grizzly_bear/animal_grizzly_bear/grizzly_bear.anim",
+            "behaviour_type": "predator",
+            "spawn_group_size": 0,
+            "move_speed_walk": 2.5,
+            "move_speed_run": 9.0,
+            "anim_factor_walk": 0.5,
+            "anim_factor_run": 0.35,
+            "phys_capsule_radius": 0.4,
+            "phys_capsule_length": 1.0,
+            "phys_compression_max": 0.5,
+            "sfx_footstep_walk": "paw_c_dirt_walk",
+            "sfx_footstep_run": "paw_c_dirt_run",
+            "attack_damage": 0.2,
+            "attack_knockback": 300.0,
+            "maximum_blood": 4.0,
+            "eye_shine_offset": [
+                0.103,
+                0.064,
+                0.166
+            ],
+            "eye_shine_scale": 0.022,
+            "eye_shine_color": [
+                180,
+                255,
+                180,
+                255
+            ],
+            "mesh_static": {
+                "path": "meshes/animals/animal_grizzly_bear/grizzly_bear.mesh"
+            }
+        },
+        {
+            "id": "horned_puffin",
+            "name": "Horned Puffin",
+            "anim": "animations/animal_horned_puffin/animal_horned_puffin/horned_puffin.anim",
+            "anim_class": "bird",
+            "spawn_group_size": 0,
+            "move_speed_run": 4.0,
+            "maximum_blood": 0.8,
+            "mesh_static": {
+                "path": "meshes/animals/animal_horned_puffin/horned_puffin.mesh"
+            }
+        },
+        {
+            "id": "interior_wolf",
+            "name": "Interior Wolf",
+            "anim": "animations/animal_interior_wolf/animal_interior_wolf/interior_wolf.anim",
+            "behaviour_type": "predator",
+            "spawn_group_size": 5,
+            "move_speed_crouch": 0.7,
+            "move_speed_walk": 2.3,
+            "move_speed_run": 8.5,
+            "anim_factor_crouch": 1.5,
+            "anim_factor_walk": 0.8,
+            "anim_factor_run": 0.5,
+            "phys_capsule_length": 0.5,
+            "phys_compression_max": 0.3,
+            "sfx_idle": "mammal_wolf_idle",
+            "sfx_breath": "mammal_wolf_breath",
+            "sfx_alert": "mammal_wolf_alert",
+            "sfx_attack": "mammal_wolf_attack",
+            "sfx_pain": "mammal_wolf_pain",
+            "sfx_perish": "mammal_wolf_perish",
+            "sfx_footstep_walk": "paw_b_dirt_walk",
+            "sfx_footstep_run": "paw_b_dirt_run",
+            "attack_jump_force": 150.0,
+            "attack_knockback": 300.0,
+            "maximum_blood": 1.5,
+            "eye_shine_offset": [
+                0.048,
+                -0.038,
+                0.134
+            ],
+            "eye_shine_scale": 0.015,
+            "eye_shine_color": [
+                160,
+                180,
+                255,
+                255
+            ],
+            "mesh_static": {
+                "path": "meshes/animals/animal_interior_wolf/interior_wolf.mesh"
+            }
+        },
+        {
+            "id": "moose",
+            "name": "Moose",
+            "anim": "animations/animal_moose/animal_moose/moose.anim",
+            "spawn_group_size": 0,
+            "move_speed_run": 7.0,
+            "anim_factor_walk": 0.4,
+            "anim_factor_run": 0.5,
+            "phys_capsule_radius": 0.4,
+            "phys_capsule_length": 1.0,
+            "phys_compression_max": 1.0,
+            "sfx_footstep_walk": "hoof_b_dirt_walk",
+            "sfx_footstep_run": "hoof_b_dirt_run",
+            "maximum_blood": 3.0,
+            "eye_shine_offset": [
+                0.147,
+                -0.042,
+                0.241
+            ],
+            "eye_shine_scale": 0.035,
+            "eye_shine_color": [
+                180,
+                255,
+                180,
+                255
+            ],
+            "mesh_static": {
+                "path": "meshes/animals/animal_moose/moose.mesh"
+            }
+        },
+        {
+            "id": "mountain_lion",
+            "name": "Mountain Lion",
+            "anim": "animations/animal_mountain_lion/animal_mountain_lion/mountain_lion.anim",
+            "behaviour_type": "predator",
+            "spawn_group_size": 0,
+            "move_speed_crouch": 0.8,
+            "move_speed_walk": 2.3,
+            "move_speed_run": 9.5,
+            "anim_factor_crouch": 0.8,
+            "anim_factor_walk": 0.7,
+            "anim_factor_run": 0.4,
+            "phys_compression_max": 0.35,
+            "sfx_footstep_walk": "paw_b_dirt_walk",
+            "sfx_footstep_run": "paw_b_dirt_run",
+            "attack_damage": 0.15,
+            "attack_jump_force": 150.0,
+            "attack_knockback": 300.0,
+            "maximum_blood": 1.5,
+            "eye_shine_offset": [
+                0.054,
+                0.023,
+                0.171
+            ],
+            "eye_shine_scale": 0.02,
+            "eye_shine_color": [
+                120,
+                255,
+                120,
+                255
+            ],
+            "mesh_static": {
+                "path": "meshes/animals/animal_mountain_lion/mountain_lion.mesh"
+            }
+        },
+        {
+            "id": "musk_ox",
+            "name": "Musk Ox",
+            "anim": "animations/animal_musk_ox/animal_musk_ox/musk_ox.anim",
+            "spawn_group_size": 0,
+            "move_speed_run": 6.5,
+            "anim_factor_walk": 0.7,
+            "anim_factor_run": 0.5,
+            "phys_capsule_radius": 0.4,
+            "phys_capsule_length": 1.0,
+            "phys_compression_max": 0.6,
+            "sfx_footstep_walk": "hoof_b_dirt_walk",
+            "sfx_footstep_run": "hoof_b_dirt_run",
+            "maximum_blood": 2.5,
+            "mesh_static": {
+                "path": "meshes/animals/animal_musk_ox/musk_ox.mesh"
+            }
+        },
+        {
+            "id": "osprey",
+            "name": "Osprey",
+            "anim": "animations/animal_osprey/animal_osprey/osprey.anim",
+            "anim_class": "bird",
+            "spawn_group_size": 0,
+            "move_speed_run": 4.0,
+            "maximum_blood": 0.8,
+            "mesh_static": {
+                "path": "meshes/animals/animal_osprey/osprey.mesh"
+            }
+        },
+        {
+            "id": "peccary",
+            "name": "Peccary",
+            "anim": "animations/animal_peccary/animal_peccary/peccary.anim",
+            "spawn_group_size": 3,
+            "move_speed_run": 6.0,
+            "anim_factor_run": 0.7,
+            "phys_capsule_length": 0.5,
+            "phys_compression_max": 0.25,
+            "sfx_idle": "mammal_pig_idle",
+            "sfx_breath": "mammal_pig_breath",
+            "sfx_alert": "mammal_pig_alert",
+            "sfx_pain": "mammal_pig_pain",
+            "sfx_perish": "mammal_pig_perish",
+            "sfx_footstep_walk": "hoof_a_dirt_walk",
+            "sfx_footstep_run": "hoof_a_dirt_run",
+            "maximum_blood": 1.5,
+            "mesh_static": {
+                "path": "meshes/animals/animal_peccary/peccary.mesh"
+            }
+        },
+        {
+            "id": "pileated_woodpecker",
+            "name": "Pileated Woodpecker",
+            "anim": "animations/animal_pileated_woodpecker/animal_pileated_woodpecker/pileated_woodpecker.anim",
+            "anim_class": "bird",
+            "spawn_group_size": 0,
+            "move_speed_run": 4.0,
+            "maximum_blood": 0.8,
+            "mesh_static": {
+                "path": "meshes/animals/animal_pileated_woodpecker/pileated_woodpecker.mesh"
+            }
+        },
+        {
+            "id": "polar_bear",
+            "name": "Polar Bear",
+            "anim": "animations/animal_polar_bear/animal_polar_bear/polar_bear.anim",
+            "behaviour_type": "predator",
+            "spawn_group_size": 0,
+            "move_speed_run": 7.5,
+            "anim_factor_walk": 0.6,
+            "anim_factor_run": 0.3,
+            "phys_capsule_radius": 0.4,
+            "phys_capsule_length": 1.0,
+            "phys_compression_max": 0.5,
+            "sfx_footstep_walk": "paw_c_dirt_walk",
+            "sfx_footstep_run": "paw_c_dirt_run",
+            "attack_damage": 0.25,
+            "attack_knockback": 300.0,
+            "maximum_blood": 4.0,
+            "eye_shine_offset": [
+                0.1,
+                0.092,
+                0.168
+            ],
+            "eye_shine_scale": 0.033,
+            "eye_shine_color": [
+                160,
+                180,
+                255,
+                255
+            ],
+            "mesh_static": {
+                "path": "meshes/animals/animal_polar_bear/polar_bear.mesh"
+            }
+        },
+        {
+            "id": "raccoon",
+            "name": "Raccoon",
+            "anim": "animations/animal_racoon/animal_racoon/racoon.anim",
+            "spawn_group_size": 0,
+            "move_speed_run": 5.5,
+            "anim_factor_walk": 1.2,
+            "phys_capsule_radius": 0.1,
+            "phys_capsule_length": 0.2,
+            "phys_compression_max": 0.05,
+            "sfx_footstep_walk": "paw_a_dirt_walk",
+            "sfx_footstep_run": "paw_a_dirt_run",
+            "maximum_blood": 0.8,
+            "mesh_static": {
+                "path": "meshes/animals/animal_racoon/racoon.mesh"
+            }
+        },
+        {
+            "id": "red_fox",
+            "name": "Red Fox",
+            "anim": "animations/animal_red_fox/animal_red_fox/red_fox.anim",
+            "spawn_group_size": 0,
+            "move_speed_run": 6.5,
+            "phys_capsule_radius": 0.1,
+            "phys_capsule_length": 0.4,
+            "phys_compression_max": 0.2,
+            "sfx_footstep_walk": "paw_a_dirt_walk",
+            "sfx_footstep_run": "paw_a_dirt_run",
+            "maximum_blood": 0.8,
+            "eye_shine_offset": [
+                0.03,
+                0.002,
+                0.066
+            ],
+            "eye_shine_scale": 0.012,
+            "eye_shine_color": [
+                255,
+                130,
+                30,
+                255
+            ],
+            "mesh_static": {
+                "path": "meshes/animals/animal_red_fox/red_fox.mesh"
+            }
+        },
+        {
+            "id": "red_tailed_hawk",
+            "name": "Red Tailed Hawk",
+            "anim": "animations/animal_red_tailed_hawk/animal_red_tailed_hawk/red_tailed_hawk.anim",
+            "anim_class": "bird",
+            "spawn_group_size": 0,
+            "move_speed_run": 4.0,
+            "maximum_blood": 0.8,
+            "mesh_static": {
+                "path": "meshes/animals/animal_red_tailed_hawk/red_tailed_hawk.mesh"
+            }
+        },
+        {
+            "id": "ringtail_cat",
+            "name": "Ringtail Cat",
+            "anim": "animations/animal_ringtail_cat/animal_ringtail_cat/ringtail_cat.anim",
+            "spawn_group_size": 0,
+            "move_speed_run": 6.0,
+            "phys_capsule_radius": 0.05,
+            "phys_capsule_length": 0.2,
+            "phys_compression_max": 0.07,
+            "sfx_footstep_walk": "paw_a_dirt_walk",
+            "sfx_footstep_run": "paw_a_dirt_run",
+            "maximum_blood": 0.4,
+            "eye_shine_offset": [
+                0.017,
+                -0.012,
+                0.049
+            ],
+            "eye_shine_scale": 0.009,
+            "eye_shine_color": [
+                255,
+                60,
+                30,
+                255
+            ],
+            "mesh_static": {
+                "path": "meshes/animals/animal_ringtail_cat/ringtail_cat.mesh"
+            }
+        },
+        {
+            "id": "roosevelt_elk",
+            "name": "Roosevelt Elk",
+            "anim": "animations/animal_roosevelt_elk/animal_roosevelt_elk/roosevelt_elk.anim",
+            "spawn_group_size": 0,
+            "move_speed_walk": 2.3,
+            "move_speed_run": 8.5,
+            "anim_factor_walk": 1.1,
+            "anim_factor_run": 0.35,
+            "phys_capsule_radius": 0.3,
+            "phys_capsule_length": 0.8,
+            "phys_compression_max": 0.6,
+            "sfx_footstep_walk": "hoof_b_dirt_walk",
+            "sfx_footstep_run": "hoof_b_dirt_run",
+            "maximum_blood": 3.0,
+            "eye_shine_offset": [
+                0.104,
+                0.059,
+                0.182
+            ],
+            "eye_shine_scale": 0.018,
+            "eye_shine_color": [
+                180,
+                255,
+                180,
+                255
+            ],
+            "mesh_static": {
+                "path": "meshes/animals/animal_roosevelt_elk/roosevelt_elk.mesh"
+            }
+        },
+        {
+            "id": "spotted_owl",
+            "name": "Spotted Owl",
+            "anim": "animations/animal_spotted_owl/animal_spotted_owl/spotted_owl.anim",
+            "anim_class": "bird",
+            "spawn_group_size": 0,
+            "move_speed_run": 4.0,
+            "maximum_blood": 0.8,
+            "mesh_static": {
+                "path": "meshes/animals/animal_spotted_owl/spotted_owl.mesh"
+            }
+        },
+        {
+            "id": "turkey_vulture",
+            "name": "Turkey Vulture",
+            "anim": "animations/animal_turkey_vulture/animal_turkey_vulture/turkey_vulture.anim",
+            "anim_class": "bird",
+            "spawn_group_size": 0,
+            "move_speed_run": 4.0,
+            "maximum_blood": 0.8,
+            "mesh_static": {
+                "path": "meshes/animals/animal_turkey_vulture/turkey_vulture.mesh"
+            }
+        },
+        {
+            "id": "white_shepherd",
+            "name": "White Shepherd",
+            "anim": "animations/animal_white_shepard/animal_white_shepard/white_shepard.anim",
+            "spawn_group_size": 0,
+            "move_speed_run": 7.0,
+            "anim_factor_run": 0.6,
+            "phys_capsule_radius": 0.15,
+            "phys_capsule_length": 0.4,
+            "phys_compression_max": 0.2,
+            "sfx_footstep_walk": "paw_b_dirt_walk",
+            "sfx_footstep_run": "paw_b_dirt_run",
+            "attack_damage": 0.05,
+            "attack_jump_force": 100.0,
+            "attack_knockback": 200.0,
+            "maximum_blood": 0.8,
+            "eye_shine_offset": [
+                0.028,
+                0.039,
+                0.075
+            ],
+            "eye_shine_scale": 0.011,
+            "eye_shine_color": [
+                160,
+                180,
+                255,
+                255
+            ],
+            "mesh_static": {
+                "path": "meshes/animals/animal_white_shepard/white_shepard.mesh"
+            }
+        },
+        {
+            "id": "white_tailed_kite",
+            "name": "White Tailed Kite",
+            "anim": "animations/animal_white_tailed_kite/animal_white_tailed_kite/white_tailed_kite.anim",
+            "anim_class": "bird",
+            "spawn_group_size": 0,
+            "move_speed_run": 4.0,
+            "maximum_blood": 0.8,
+            "mesh_static": {
+                "path": "meshes/animals/animal_white_tailed_kite/white_tailed_kite.mesh"
+            }
+        },
+        {
+            "id": "monster_s",
+            "name": "Monster",
+            "anim": "animations/animal_lizard_creature_a/lizard_creature_a/lizard_creature_a.anim",
+            "anim_class": "quadruped_tail",
+            "behaviour_type": "monster",
+            "move_speed_crouch": 1.5,
+            "move_speed_run": 8.0,
+            "move_speed_swim": 24.0,
+            "anim_factor_crouch": 0.4,
+            "anim_factor_walk": 0.4,
+            "anim_factor_run": 0.5,
+            "phys_capsule_radius": 0.5,
+            "phys_capsule_length": 1.7,
+            "phys_compression_max": 0.3,
+            "sfx_idle": "reptile_c_idle",
+            "sfx_breath": "reptile_c_breath",
+            "sfx_alert": "reptile_c_alert",
+            "sfx_attack": "reptile_c_attack",
+            "sfx_pain": "reptile_c_pain",
+            "sfx_perish": "reptile_c_perish",
+            "sfx_footstep_walk": "claw_a_dirt_walk",
+            "sfx_footstep_run": "claw_a_dirt_run",
+            "attack_damage": 0.2,
+            "attack_knockback": 300.0,
+            "maximum_blood": 48.0,
+            "eye_shine_offset": [
+                0.21,
+                0.017,
+                0.213
+            ],
+            "eye_shine_scale": 0.04,
+            "eye_shine_color": [
+                255,
+                60,
+                30,
+                255
+            ],
+            "mesh_static": {
+                "path": "meshes/animals/lizard_creature_a/lizard_creature_a.mesh"
+            }
+        }
+    ]
+}

@@ -1,0 +1,382 @@
+{
+	"elements": [
+		{
+			"type": "locator",
+			"content": "",
+			"color": [
+				200,
+				200,
+				200,
+				255
+			]
+		},
+		{
+			"type": "title",
+			"content": "The Modern Guide To Survival"
+		},
+		{
+			"type": "paragraph",
+			"content": "In the scenario of an extreme event, such as pandemic, natural disaster, or war, survival is your first priority. Secure shelter, suitable clothing, water, and food. If you feel threatened, weapons and ammunition are also essential."
+		},
+		{
+			"type": "paragraph",
+			"content": "Familiarize yourself with your surroundings and explore the local area. Gather resources as required. A person can only carry so much, so manage your inventory and stash extra resources for later."
+		},
+		{
+			"type": "paragraph",
+			"content": "<INVENTORY CONTROL BINDINGS>"
+		},
+		{
+			"type": "paragraph",
+			"content": "Beyond your immediate surroundings is unknown. Beware of threats such as wild animals or uncivilized individuals or groups. It's advisable to keep a directional transponder detector, in order to track emergency signals and navigate in the event of a regional communications failure."
+		},
+		{
+			"type": "paragraph",
+			"content": "When travelling, be mindful of changing weather conditions and daylight hours, as deteriorating conditions can make even the most simple tasks become monumental challenges."
+		},
+		{
+			"type": "paragraph",
+			"content": "<MOVEMENT CONTROL BINDINGS>"
+		},
+		{
+			"type": "paragraph",
+			"content": "Forming a group can improve your personal security and increase your chance of survival. If you wish to host your friends, use the mutliplayer button on the escape menu. Open to friends to provide an open invite, or share your unique code to anyone."
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		},
+		{
+			"type": "locator",
+			"content": "",
+			"color": [
+				127,
+				255,
+				31,
+				255
+			]
+		},
+		{
+			"type": "title",
+			"content": "Survival"
+		},
+		{
+			"type": "paragraph",
+			"content": "A persons health is supported by the following fundamentals of wellbeing:"
+		},
+		{
+			"type": "paragraph",
+			"content": "<WATER ICON> - Drink regularly to avoid dehydration."
+		},
+		{
+			"type": "paragraph",
+			"content": "<...OTHER HEALTH ICONS>"
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		},
+		{
+			"type": "title",
+			"content": "Weather"
+		},
+		{
+			"type": "paragraph",
+			"content": "Meteriological conditions are measured by wind speed and direction, precipitation, temperature, and visibility. While the worst weather often brings all of the worst conditions, these conditions can occur in any combination, with each presenting unique challenges."
+		},
+		{
+			"type": "paragraph",
+			"content": "High winds can cause difficulty travelling, and make air travel impossible. Wind chill factor causes the air to feel colder than it really is. Wind can also make the sea dangerous where significant wave hazards can form."
+		},
+		{
+			"type": "paragraph",
+			"content": "Precipitation can quickly saturate clothing, making it heavy and cold. Rain will only form when there are clouds, with the worst rain and lightning strikes occuring with the tallest columns of cumbulonimus clouds. You can often see bad weather approaching by simply looking up and at the horizon."
+		},
+		{
+			"type": "paragraph",
+			"content": "Temperature typically increases at day time as the sun warms the ground, and lowers at night time. Winds can bring cooler or warmer air."
+		},
+		{
+			"type": "paragraph",
+			"content": "Seek shelter to avoid the worst effects of wind and rain, seek heat sources to stay warm, and dress appropriately for the weather."
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		},
+		{
+			"type": "title",
+			"content": "Food and Water"
+		},
+		{
+			"type": "paragraph",
+			"content": "Hydration is critical to good health. Drink regularly to minimize the risk of sickness. The most extreme dehydration can result in death."
+		},
+		{
+			"type": "paragraph",
+			"content": "Eat to fuel your body. Survival is often very active and burns a lot of energy."
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		},
+		{
+			"type": "title",
+			"content": "Dressing Appropriately"
+		},
+		{
+			"type": "paragraph",
+			"content": "Add or remove layers to keep yourself at a comfortable temperature. Getting too hot can lead to exhaustion, while the cold can lead to hypothermia and is a common cause of death in survival situations."
+		},
+		{
+			"type": "paragraph",
+			"content": "Waterproof clothing is valuable to protect against strong winds and rain. Wet clothing and wind chill can make it very difficult to stay warm."
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		},
+		{
+			"type": "title",
+			"content": "Survival Equipment"
+		},
+		{
+			"type": "paragraph",
+			"content": "Sources of light such as torches are vital at night time. Make sure to have fully charged batteries installed, and plenty of spares. In remote areas, it can be very difficult to move around and use your belongings in the dark of night."
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		},
+		{
+			"type": "title",
+			"content": "Field Medicine"
+		},
+		{
+			"type": "paragraph",
+			"content": "Always consult a doctor when possible. When it isn't possible to reach trained medical personel, treat with the following:"
+		},
+		{
+			"type": "paragraph",
+			"content": "Poor heath can be treated with first aid kits, plamsa transfusion."
+		},
+		{
+			"type": "paragraph",
+			"content": "Bleeding can be treated with bandages, suture kits."
+		},
+		{
+			"type": "paragraph",
+			"content": "Sickness can be treated with antibiotics."
+		},
+		{
+			"type": "paragraph",
+			"content": "Pain can be treated with pain killer tablets, morphine injection."
+		},
+		{
+			"type": "paragraph",
+			"content": "Incapacitated persons may be revived by adrenaline injection."
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		},
+		{
+			"type": "title",
+			"content": "Weapons"
+		},
+		{
+			"type": "paragraph",
+			"content": "Your security depends on your ability to defend your own person and your group. Melee weapons are useful for defending at close range, but typically firearms are the first choice for sending off threats before they get too close."
+		},
+		{
+			"type": "paragraph",
+			"content": "Some weapons such as revolvers and shotguns do not have magazines, and are loaded round by round. Other weapons require magazines. Magazines can be reloaded by holding them in your hands and charging them round by round."
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		},
+		{
+			"type": "locator",
+			"content": "",
+			"color": [
+				255,
+				127,
+				31,
+				255
+			]
+		},
+		{
+			"type": "title",
+			"content": "Building"
+		},
+		{
+			"type": "paragraph",
+			"content": "The building system allows you to construct and customise a wide variety of vehicles and structures. Building within the creative dome provides unlimited components, light, and safety."
+		},
+		{
+			"type": "paragraph",
+			"content": "Building is based on a grid. Each grid square is 8cm in size."
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		},
+		{
+			"type": "title",
+			"content": "Tools"
+		},
+		{
+			"type": "paragraph",
+			"content": "The editor tools provides the ability to edit a series of layers of elements. Many designs are started with the Frame tool, and then Plate tool to fill in framing in a single plane. Mechanical and functional components can be placed directly onto the build. Use paints to change colors. Use the remove tool to delete a selected component."
+		},
+		{
+			"type": "paragraph",
+			"content": "The connection tools — Electric, Mechanical, Liquid, Gas, Data, and Belt — are used to wire components together so that they can interact. Properties and Microcontroller tools allow you to edit parameters and code. The duplicate tool can be used to save and load designs to file and the workshop."
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		},
+		{
+			"type": "title",
+			"content": "Ports"
+		},
+		{
+			"type": "paragraph",
+			"content": "Some components require ports to be placed for connections to attach. This is so designers can decide how and where components interface to others."
+		},
+		{
+			"type": "paragraph",
+			"content": "Interface components are connectors for attaching the various connections between separate vehicles. Aligning two interfaces causes them to connect."
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		},
+		{
+			"type": "title",
+			"content": "Mechanical"
+		},
+		{
+			"type": "paragraph",
+			"content": "Mechanical connections transfer physical signal between components (in the -1 to +1 range). These signals do not require any power."
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		},
+		{
+			"type": "title",
+			"content": "Electric"
+		},
+		{
+			"type": "paragraph",
+			"content": "Electrical connections carry power from batteries to components that require it, such as lights, motors, and other powered accessories. Electric power can be generated by alternators. The flow of power can be controlled by relays."
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		},
+		{
+			"type": "title",
+			"content": "Liquid"
+		},
+		{
+			"type": "paragraph",
+			"content": "Liquid connections carry fuel, water, oil, and other liquids between components. Liquid will equalize pressure and level out between containers. Pumps can be used to increase pressure to push liquid higher. High pressure liquid can be used to power hydraulic components."
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		},
+		{
+			"type": "title",
+			"content": "Gas"
+		},
+		{
+			"type": "paragraph",
+			"content": "Gas connections carry compressed gases between tanks, valves, and gas-powered systems. Gas pumps can increase gas pressure, and pneumatics can be powered by pressurized gas."
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		},
+		{
+			"type": "title",
+			"content": "Power"
+		},
+		{
+			"type": "paragraph",
+			"content": "Mechanical torque components can be connected by drive shafts, gear boxes, clutches, etc. This power can be generated by engines or motors, and is used to power wheels, rotors, etc."
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		},
+		{
+			"type": "title",
+			"content": "Components"
+		},
+		{
+			"type": "paragraph",
+			"content": "Functional components include seating, steering wheels, throttles, lights, mirrors, antennas, winches, weapon mounts, toolboxes, and many others. Components must be connected appropriately using the connection tools to function."
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		},
+		{
+			"type": "title",
+			"content": "Buildings"
+		},
+		{
+			"type": "paragraph",
+			"content": "Buildings are constructed from building elements, including doors, windows, walls, floors, roofs, etc. Buildings can be furnished with various furniture components. Use buildings as shelters, bases of operations, or fortified positions to protect your group from the elements and from threats."
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		},
+		{
+			"type": "title",
+			"content": "Cars"
+		},
+		{
+			"type": "paragraph",
+			"content": "Cars are general-purpose wheeled ground vehicles suited for personal transport. Build a drivetrain from engine through gearbox to the driven wheels, then add seating, a steering wheel, and lights to complete a functional vehicle."
+		},
+		{
+			"type": "paragraph",
+			"content": "The simplest car is an electric vehicle. More advanced cars can use fuel engines."
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		},
+		{
+			"type": "title",
+			"content": "Trucks"
+		},
+		{
+			"type": "paragraph",
+			"content": "Trucks are larger and more powerful wheeled vehicles capable of carrying heavy loads. Their parts are heavier and more powerful, with some components requiring hydraulic or pneumatic control at this scale."
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		},
+		{
+			"type": "title",
+			"content": "Tracked"
+		},
+		{
+			"type": "paragraph",
+			"content": "Tracked vehicles use gear tracks in place of standard wheels, providing superior traction on rough and soft terrain. They are typically slower on roads but far more capable off-road and in difficult conditions."
+		},
+		{
+			"type": "page_break",
+			"content": ""
+		}
+	]
+}
