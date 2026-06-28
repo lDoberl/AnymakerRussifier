@@ -1,0 +1,613 @@
+id	context	en	fr	de	es	ja	pt	ru	zh
+unused									
+button_new_game	label for button which opens a screen with the options for starting a new save file	New Game	Nouvelle partie	Neues Spiel	Nueva partida	新しいゲーム	Novo jogo	Новая игра	新游戏
+button_load_game	label for button which opens a screen with the options to launch a previous save file	Load Game	Charger la partie	Spiel laden	Cargar partida	ゲームの読み込み	Carregar jogo	Загрузить игру	加载游戏
+button_multiplayer_join	label for button which opens a screen with the options to join a server	Multiplayer	Multijoueur	Multiplayer	Multijugador	マルチプレイヤー	Multijogador	Мультиплеер	多人游戏
+button_multiplayer_host	label for button which opens a screen with the options to host a server	Multiplayer	Multijoueur	Multiplayer	Multijugador	マルチプレイヤー	Multijogador	Мультиплеер	多人游戏
+button_profile	label for button which opens a screen where the user can modify their character information	Profile	Profil	Profil	Perfil	プロフィール	Perfil	Профиль	个人资料
+button_options	label for button which opens a screen which allows the user to modify their settings	Options	Options	Optionen	Opciones	オプション	Opções	Параметры	选项
+button_feedback	label for button which launches a link to the company website providing options to report bugs and request features	Feedback						Обратная связь	
+button_exit	label for button which closes the game	Exit	Quitter	Beenden	Salir	終了	Sair	Выход	退出
+button_back	label for button which returns the user to the previous screen	Back	Retour	Zurück	Atrás	戻る	Voltar	Назад	返回
+button_start_new_game	label for button which starts a new game	Start New Game	Démarrer une nouvelle partie	Neues Spiel starten	Iniciar nueva partida	新しいゲームを開始	Iniciar novo jogo	Начать новую игру	开始新游戏
+button_apply_changes	label for button which applies modifications on the current screen to settings	Apply Changes	Appliquer les modifications	Änderungen übernehmen	Aplicar cambios	変更を適用	Aplicar alterações	Применить изменения	应用更改
+button_reset_to_default	label for button which resets settings on the current screen to their default configuration	Reset to Default	Réinitialiser les paramètres par défaut	Auf Standard zurücksetzen	Restablecer valores predeterminados	デフォルトにリセット	Redefinir para o padrão	Сброс по умолчанию	重置为默认值
+button_yes	label for button which actions affirmative response to a yes-no question	Yes	Oui	Ja	Sí	はい	Sim	Да	是
+button_no	label for button which actions negative response to a yes-no question	No	Non	Nein	No	いいえ	Não	Нет	否
+button_return_to_game	label for a button which closes the pause menu and returns the player to the game	Return to Game	Revenir à la partie	Zurück zum Spiel	Volver a la partida	ゲームに戻る	Retornar ao jogo	Вернуться к игре	返回游戏
+button_save_game	label for a button which opens a screen with options to save the game	Save Game	Sauvegarder la partie	Spiel speichern	Guardar partida	ゲームを保存	Salvar jogo	Сохранить игру	保存游戏
+button_exit_to_main_menu	label for a button which returns the user to the main menu closing the safe file in the process	Exit to Main Menu	Retour au menu principal	Zurück zum Hauptmenü	Salir al menú principal	メインメニューに戻る	Sair para o menu principal	Выйти в главное меню	退出主菜单
+button_new_save	label for a button which opens a screen with the options for creating a new save file	New Save	Nouvelle sauvegarde	Neuer Speicherstand	Nueva partida guardada	新規保存	Novo salvamento	Новое сохранение	新保存
+button_confirm	label for button which confirms an action posed to the user	Confirm	Confirmer	Bestätigen	Confirmar	確認	Confirmar	Подтвердить	确认
+button_cancel	label for button which rejects an action posed to the user	Cancel	Annuler	Abbrechen	Cancelar	キャンセル	Cancelar	Отмена	取消
+button_return_to_main_menu	label for button which returns the user to the main menu from a lost connection/unable to connect screen	Return to Main Menu	Retour au menu principal	Zurück zum Hauptmenü	Regresar al menú principal	メインメニューに戻る	Retornar ao menu principal	Вернуться в главное меню	返回主菜单
+button_connect	label for a button which launches a request for a user to connect to a server	Connect						Подключиться	
+button_save_clipboard	label for a button which saves the contents of the duplicate tool clipboard	Save Clipboard						Сохранить из буфера	
+button_upload_to_workshop	label for a button which uploads the contents of the duplicate tool to the Steam Workshop	Upload to Workshop						Загрузить в Мастерскую	
+button_upload	label for a button which uploads the contents of the duplicate tool to the Steam Workshop	Upload						Загрузить	
+new_game_title	a title for the screen which displays the options for starting a new save file	NEW GAME	NOUVELLE PARTIE	NEUES SPIEL	NUEVA PARTIDA	新しいゲーム	NOVO JOGO	НОВАЯ ИГРА	新游戏
+profile_title	a title for the screen where the user can modify their character information	PROFILE	PROFIL	PROFIL	PERFIL	プロフィール	PERFIL	ПРОФИЛЬ	个人资料
+save_game_title	a title for the screen which displays the options to save the game	SAVE GAME	SAUVEGARDER LA PARTIE	SPIEL SPEICHERN	GUARDAR PARTIDA	ゲームを保存	SALVAR JOGO	СОХРАНИТЬ ИГРУ	保存游戏
+multiplayer_host_title	a title for the screen which displays the options to host a server	MULTIPLAYER HOST	HÔTE MULTIJOUEUR	MULTIPLAYER-HOST	HOST MULTIJUGADOR	マルチプレイヤー ホスト	HOST MULTIJOGADOR	ХОСТ МУЛЬТИПЛЕЕРА	多人游戏主机
+tab_load_game_saves	label for button which opens a screen which displays the options to launch a previous save file	SAVES						СОХРАНЕНИЯ	
+tab_load_game_autosaves	label for button which opens a screen which displays the options to launch a previous autosave file	AUTOSAVES						АВТОСОХРАНЕНИЯ	
+tab_general	label for button which opens a screen listing options that fit into no specific category	GENERAL	GÉNÉRAL	ALLGEMEIN	GENERAL	一般	GERAL	ОБЩИЕ	常规
+tab_friends	label for button which opens a screen listing the user's steam friends' open games	FRIENDS	AMIS	FREUNDE	AMIGOS	友達	AMIGOS	ДРУЗЬЯ	朋友
+tab_invite_code	label for button which opens a screen allowing a user to connect to a game with an invite code	INVITE CODE						КОД ПРИГЛАШЕНИЯ	
+tab_graphics	label for button which opens a screen listing options related to graphics and rendering	GRAPHICS	GRAPHIES	GRAFIK	GRÁFICOS	グラフィック	GRÁFICOS	ГРАФИКА	图形
+tab_audio	label for button which opens a screen listing options related to sounds	AUDIO	SON	AUDIO	AUDIO	オーディオ	ÁUDIO	АУДИО	音频
+tab_controls	label for button which opens a screen listing options related to input from keyboard, mouse and gamepad	CONTROLS	COMMANDES	STEUERUNG	CONTROLES	コントロール	CONTROLES	УПРАВЛЕНИЕ	控制
+tab_duplicate_local	label for button which opens a screen listing local vehicle files for duplicating	LOCAL						ЛОКАЛЬНЫЕ	
+tab_duplicate_workshop	label for button which opens a screen listing workshop vehicle files for duplicating	WORKSHOP						МАСТЕРСКАЯ	
+save_last_played	the date and time the save file was created	Last Played	Dernière partie	Zuletzt gespielt	Última partida	最終プレイ	Último jogo	Последняя игра	上次播放
+save_version	the verison of the game the save file was created in	Version	Version	Version	Versión	バージョン	Versão	Версия	版本
+hour_abbreviation	abbreviated form of hour to display a duration in this format 00h 00m 00s	h	h	h	h	時間	h	ч	h
+minute_abbreviation	abbreviated form of minute to display a duration in this format 00h 00m 00s	m	m	m	m	分	m	м	m
+second_abbreviation	abbreviated form of second to display a duration in this format 00h 00m 00s	s	s	s	s	秒	s	с	s
+profile_body	a heading for the player's body modification settings, including body shape and skin tone	BODY	CORPS	KÖRPER	CUERPO	ボディ	CORPO	ТЕЛО	身体
+profile_hair	a heading for the player's hair modification settings, including hair style and color	HAIR	CHEVEUX	HAAR	CABELLO	髪	CABELO	ВОЛОСЫ	头发
+options_general_launch	a heading for settings relating to starting the game	LAUNCH	LANCER	STARTEN	INICIAR	起動	INÍCIO	ЗАПУСК	启动
+options_general_photosensitivity_warning	a label for the setting which toggles the photosensitivity warning on or off	PHOTOSENSITIVITY WARNING	AVERTISSEMENT DE PHOTOSENSIBILITÉ	WARNHINWEIS VOR LICHTEMPFINDLICHKEIT	AVISO DE FOTOSENSIBILIDAD	光過敏症の警告	AVISO DE FOTOSSENSIBILIDADE	ПРЕДУПРЕЖДЕНИЕ О ФОТОЧУВСТВИТЕЛЬНОСТИ	感光警告
+options_general_server	a heading for settings relating to hosting a game	SERVER						СЕРВЕР	
+options_general_interface	a heading for settings relating to the UI	INTERFACE	INTERFACE	OBERFLÄCHE	INTERFAZ	インターフェース	INTERFACE	ИНТЕРФЕЙС	界面
+options_general_language	a label for the setting which sets the language that all text in the game appears in	LANGUAGE	LANGUE	SPRACHE	IDIOMA	言語	IDIOMA	ЯЗЫК	语言
+options_general_tooltip_detail	a label for the setting which controls how much information is shown in the tooltips that appear when the player looks at a component	TOOLTIP DETAIL	DÉTAIL DE L'INFO-BULLE	TOOLTIP-DETAILS	DETALLE DE INFORMACIÓN SOBRE HERRAMIENTAS	ツールチップの詳細	DETALHE DA FERRAMENTA	ПОДСКАЗКА	工具提示详细信息
+options_general_control_hints	a label for the setting which controls if control input hints are displayed on the screen or not	CONTROL HINTS						ПОДСКАЗКИ УПРАВЛЕНИЯ	
+options_general_show_tutorial	a label for the setting which controls if the tutorial is played again	SHOW TUTORIAL						ПОКАЗЫВАТЬ ОБУЧЕНИЕ	
+options_graphics_quality	a heading for graphics settings relating to graphics quality	QUALITY	QUALITÉ	QUALITÄT	CALIDAD	品質	QUALIDADE	КАЧЕСТВО	质量
+options_graphics_fxaa	a label for the setting which toggles FXAA on or off	FXAA	FXAA	FXAA	FXAA	FXAA	FXAA	FXAA	FXAA
+options_graphics_ssao	a label for the setting which toggles SSAO on or off	SSAO						SSAO	
+options_graphics_bloom	a label for the setting which toggles the bloom graphics effect on or off	BLOOM	FLORAISON	BLÜTE	BLOOM	ブルーム	BLOOM	ЦВЕТЕНИЕ	绽放
+options_graphics_shadows	a label for the setting which toggles shadow rendering on or off	SHADOWS	OMBRES	SCHATTEN	SOMBRAS	影	SOMBRAS	ТЕНИ	阴影
+options_graphics_fog_blur	a label for the setting which toggles the fog blur graphics effect on or off	FOG BLUR	FOU DE BROUILLARD	NEBEL	DESENFOQUE DE NIEBLA	霧のぼかし	FOG BLUR	РАЗМЫТИЕ ТУМАНОМ	雾模糊
+options_graphics_clouds	a label for the setting which toggles cloud rendering on or off	CLOUDS	NUAGES	UNSCHÄRFE	NUBES	雲	NUVENS	ОБЛАКА	云
+options_graphics_grass	a label for the setting which toggles grass rendering on or off	GRASS						ТРАВА	
+options_graphics_window_mode	a label for the setting which sets the window mode (e.g. to fullscreen, windowed etc.)	WINDOW MODE	MODE FENÊTRE	WOLKEN	MODO DE VENTANA	ウィンドウ モード	MODO JANELA	РЕЖИМ ОКНА	窗口模式
+options_graphics_resolution	a label for the setting which sets the display resolution for the game	RESOLUTION	RÉSOLUTION	FENSTERMODUS	RESOLUCIÓN	解像度	RESOLUÇÃO	РАЗРЕШЕНИЕ	分辨率
+options_graphics_vsync	a label for the setting which toggles VSync on or off	VSYNC	SYNC VIRTUELLE	AUFLÖSUNG	SINCRONIZACIÓN VERTICAL	垂直同期	VSYNC	VSYNC	垂直同步
+options_graphics_camera	a heading for graphics settings relating to the camera	CAMERA						КАМЕРА	
+options_graphics_render_distance	a label for the setting which modifies the maximum render distance of the camera	RENDER DISTANCE						ДАЛЬНОСТЬ ПРОРИСОВКИ	
+options_graphics_fov	a label for the setting which modifies the field of view of the camera	FIELD OF VIEW	CHAMP DE VUE	VSYNC	CAMPO DE VISIÓN	視野角	FOV	FIRST ПЕРСОНА	视野
+options_graphics_object_detail	a label for the setting which modifies the distance at which objects become visible	OBJECT DETAIL						ДЕТАЛИЗАЦИЯ ОБЪЕКТОВ	
+options_graphics_shadow_quality	a label for the setting which modifies the quality of shadow rendering	SHADOW QUALITY						КАЧЕСТВО ТЕНЕЙ	
+options_graphics_shadow_casting_lights	a label for the setting which modifies the amount of shadow casting lights allowable	SHADOW CASTING LIGHTS						ИСТОЧНИКИ ТЕНЕЙ	
+options_graphics_quality_low	a label for the low graphics quality preset	LOW						НИЗКОЕ	
+options_graphics_quality_medium	a label for the medium graphics quality preset	MEDIUM						СРЕДНЕЕ	
+options_graphics_quality_high	a label for the high graphics quality preset	HIGH						ВЫСОКОЕ	
+options_graphics_quality_ultra	a label for the ultra graphics quality preset	ULTRA						УЛЬТРА	
+options_audio_volume	a heading for the audio settings relating to audio volume	VOLUME	VOLUME	Egoperspektive	VOLUMEN	音量	VOLUME	ГЛАВНАЯ ГРОМКОСТЬ	音量
+options_audio_master_volume	a label for the setting which controls the volume of all audio in the game	MASTER VOLUME	VOLUME PRINCIPAL	LAUTSTÄRKE	MAESTRO VOLUMEN	マスター音量	MESTRE VOLUME	ЗВУКИ	主控音量
+options_audio_ui	a label for the setting which controls the volume of UI sounds in the game	UI						ИНТЕРФЕЙС	
+options_audio_game	a label for the setting which controls the volume of general sounds in the game	GAME						ИГРА	
+options_audio_vehicle	a label for the setting which controls the volume of vehicle sounds in the game	VEHICLE						ТРАНСПОРТ	
+options_audio_environment	a label for the setting which controls the volume of environment sounds in the game	ENVIRONMENT	ENVIRONNEMENT	TÖNE	AMBIENTE	環境	AMBIENTE	МУЗЫКА	环境
+options_audio_music	a label for the setting which controls the volume of background music in the game	MUSIC	MUSIQUE	UMGEBUNG	MÚSICA	音楽	MÚSICA	МЫШЬ	音乐
+options_audio_voice	a label for the setting which controls the volume of other player's voices in the game	VOICES						ГОЛОСА	
+options_audio_input	a heading for the audio settings relating to audio input	INPUT						ВВОД	
+options_audio_microphone	a label for the setting which controls the volume of the player's microphone input	MICROPHONE						МИКРОФОН	
+options_audio_push_to_talk	a label for the setting which controls if the player's microphone is push to talk or always recording	PUSH TO TALK						НАЖАТЬ ДЛЯ РАЗГОВОРА	
+options_audio_mute	a label for the setting which controls if the player's microphone is muted	MUTE						БЕЗ ЗВУКА	
+options_controls_mouse	a heading for the settings relating to the computer mouse	MOUSE	SOURIS	MUSIK	RATÓN	マウス	MOUSE	ИНВЕРСИЯ X	鼠标
+options_controls_invert_x	a label for the setting which inverts x-axis input from a computer mouse	INVERT X	INVERSER X	MAUS	INVERTIR X	X 軸反転	INVERTER X	ИНВЕРСИЯ Y	X 轴反转
+options_controls_invert_y	a label for the setting which inverts y-axis input from a computer mouse	INVERT Y	INVERSER Y	INVERT X	INVERTIR Y	Y 軸反転	INVERTER Y	ЧУВСТВИТЕЛЬНОСТЬ	Y 轴反转
+options_controls_sensitivity	a label for the setting which controls the sensitivity of the computer mouse	SENSITIVITY	SENSIBILITÉ	INVERT Y	SENSIBILIDAD	感度	SENSIBILIDADE	АСПЕКТ	灵敏度
+options_controls_aspect	a label for the setting which controls the mouse aspect	ASPECT	ASPECT	EMPFINDLICHKEIT	ASPECTO	アスペクト	ASPECTO	ПЕРСОНАЖ	外观
+options_controls_character	a heading for all the controls settings related to first person movement and actions	CHARACTER	PERSONNAGE	AUSRICHTUNG	PERSONAJE	キャラクター	CARACTERE	ТРАНСПОРТНОЕ СРЕДСТВО	角色
+options_controls_vehicle	a heading for controls related to operating a vehicle	VEHICLE	VÉHICULE	CHARAKTER	VEHÍCULO	車両	VEÍCULO	ТРАНСПОРТНОЕ СРЕДСТВО - РУЛЬ	车辆
+options_controls_vehicle_steering_wheel	a heading for controls related to operating a vehicle with a steering wheel	VEHICLE - STEERING WHEEL	VÉHICULE - VOLANT	FAHRZEUG	VEHÍCULO - VOLANTE	車両 - ステアリング ホイール	VEÍCULO - VOLANTE	ТРАНСПОРТНОЕ СРЕДСТВО - ДЖОЙСТИК ПОЛЕТА	车辆 - 方向盘
+options_controls_vehicle_flight_stick	a heading for controls related to operating a vehicle with a flight stick	VEHICLE - FLIGHT STICK	VÉHICULE - MANETTE DE VOL	FAHRZEUG - LENKRAD	VEHÍCULO - PALANCA DE VUELO	車両 - フライト スティック	VEÍCULO - MANCHE DE VOO	ПРЫЖОК	车辆 - 飞行摇杆
+binding_digital_jump	an input binding action which initiates the player jumping	JUMP	SAUTER	FAHRZEUG - STEUERKNÜPPEL	SALTAR	ジャンプ	SALTAR	ПРИСЕДАТЬ	跳跃
+binding_digital_crouch	an input binding action which initiates the player crouching	CROUCH	S'ACCROCHER	SPRINGEN	AGACHARSE	しゃがむ	AGOCAR-SE	ПРЫГНУТЬ	蹲下
+binding_digital_swim_up	an input binding action which initiates the player swimming upwards	SWIM UP	NAGER	DUCKEN	NADAR HACIA ARRIBA	上へ泳ぐ	NADAR PARA CIMA	ПРЫЖОК	游泳
+binding_digital_dive	an input binding action which initiates the player swimming downwards	DIVE	PLONGER	HOCHSCHWIMMEN	ZAMBULLIRSE	ダイブ	MERGULHAR	СПРИНТ	潜水
+binding_digital_sprint	an input binding action which initiates the player running	SPRINT	SPRINTER	TAUCHEN	SPRINTEAR	スプリント	CORRENCIAR	ПОДНЯТИЕ	冲刺
+binding_digital_climb	an input binding action which initiates the player climbing	CLIMB	GRIMPER	SPRINTEN	ESCALAR	登る	ESCALHAR	ВЗАИМОДЕЙСТВИЕ	攀爬
+binding_digital_interact	an input binding action which initiates the player interacting with what they are looking at	INTERACT	INTERAGIR	KLETTERN	INTERACTUAR	インタラクト	INTERACIONAR	ПЕРВИЧНЫЙ ПРЕДМЕТ	互动
+binding_digital_item_primary	an input binding action which initiates the primary action attached to the player's active item	ITEM PRIMARY	OBJET PRINCIPAL	INTERAGIEREN	OBJETO PRINCIPAL	アイテム プライマリ	ITEM PRINCIPAL	ВТОРИЧНЫЙ ПРЕДМЕТ	主要物品
+binding_digital_item_secondary	an input binding action which initiates the secondary action attached to the player's active item	ITEM SECONDARY	OBJET SECONDAIRE	PRIMÄRER GEGENSTAND	OBJETO SECUNDARIO	アイテム セカンダリ	ITEM SECUNDÁRIO	ПЕРЕКЛЮЧЕНИЕ МЕНЮ ИНВЕНТАРЯ	次要物品
+binding_digital_inventory_menu_toggle	an input binding action which initiates opening or closing the inventory screen	INVENTORY MENU TOGGLE	BASSER LE MENU INVENTAIRE	SEKUNDÄRER GEGENSTAND	CONMUTACIÓN DEL MENÚ DE INVENTARIO	インベントリ メニュー トグル	INTERACIONAR MENU DE INVENTÁRIO	ПЕРЕКЛЮЧЕНИЕ МЕНЮ ПАУЗЫ	库存菜单切换
+binding_digital_pause_menu_toggle	an input binding action which initiates opening or closing the pause menu	PAUSE MENU TOGGLE	BASSER LE MENU PAUSE	INVENTAR-MENÜ-UMSCHALTEN	CONMUTACIÓN DEL MENÚ DE PAUSA	一時停止 メニュー トグル	INTERACIONAR MENU DE PAUSA	ПАНЕЛЬ ИНСТРУМЕНТОВ ВЛЕВО	暂停菜单切换
+binding_digital_toolbar_left	an input binding action which initiates scrolling left along the hotbar	TOOLBAR LEFT	BARRE D'OUTILS GAUCHE	PAUSE-MENÜ-UMSCHALTEN	BARRA DE HERRAMIENTAS IZQUIERDA	ツールバー 左	BARRA DE FERRAMENTAS ESQUERDA	ПАНЕЛЬ ИНСТРУМЕНТОВ ВПРАВО	左侧工具栏
+binding_digital_toolbar_right	an input binding action which initiates scrolling right along the hotbar	TOOLBAR RIGHT	BARRE D'OUTILS DROITE	SYMBOLLEISTE LINKS	BARRA DE HERRAMIENTAS DERECHA	ツールバー 右	BARRA DE FERRAMENTAS DIREITA	ПЕРЕЗАГРУЗКА	右侧工具栏
+binding_digital_reload	an input binding action which initiates reloading a gun	RELOAD	RECHARGER	SYMBOLLEISTE RECHTS	RECARGAR	リロード	RECARREGAR	БРОСИТЬ	重新加载
+binding_digital_drop	an input binding action which initiates releasing the active item from the player's hands or inventory into the world	DROP	LAISSER TOMBER	NEULADEN	SOLTAR	ドロップ	SOLTAR	ПОВОРОТ ВЛЕВО	放下
+binding_digital_rotate_left	an input binding action which initiates rotating an object leftwards from the viewpoint of the player	ROTATE LEFT	ROTATION À GAUCHE	FALLEN	ROTAR A LA IZQUIERDA	左に回転	GIRAR ESQUERDA	ПОВОРОТ ВВЕРХ	向左旋转
+binding_digital_rotate_right	an input binding action which initiates rotating an object rightwards from the viewpoint of the player	ROTATE RIGHT	ROTATION À DROITE	LINKS DREHEN	ROTAR A LA DERECHA	右に回転	GIRAR DIREITA	ПОВОРОТ ВНИЗ	向右旋转
+binding_digital_rotate_up	an input binding action which initiates rotating an object upwards from the viewpoint of the player	ROTATE UP	ROTATION VERS LE HAUT	RECHTS DREHEN	ROTAR HACIA ARRIBA	上に回転	GIRAR PARA CIMA	ВЫЙТИ С МЕСТА	向上旋转
+binding_digital_rotate_down	an input binding action which initiates rotating an object downwards from the viewpoint of the player	ROTATE DOWN	ROTATION VERS LE BAS	HOCH DREHEN	ROTAR HACIA ABAJO	下に回転	GIRAR PARA BAIXO	ПРОГРАММИРУЕМЫЙ 2	向下旋转
+binding_digital_exit_seat	an input binding action which initiates the player getting out of a seat	EXIT SEAT	SORTIR DU SIÈGE	UNTEN DREHEN	SALIDA DEL ASIENTO	座席から出る	SAIR DO ASSENTO	ПРОГРАММИРУЕМЫЙ 3	退出座位
+binding_digital_program_button_1	an input binding action which can be assigned to different actions at the players descretion	PROGRAM 1	PROGRAMMABLE 2	SITZ VERLASSEN	PROGRAMABLE 2	プログラム可能 2	PROGRAMÁVEL 2	ПРОГРАММИРУЕМЫЙ 4	可编程 2
+binding_digital_program_button_2	an input binding action which can be assigned to different actions at the players descretion	PROGRAM 2	PROGRAMMABLE 3	PROGRAMMIERBAR 2	PROGRAMABLE 3	プログラム可能 3	PROGRAMÁVEL 3	ПРОГРАММИРУЕМЫЙ 5	可编程 3
+binding_digital_program_button_3	an input binding action which can be assigned to different actions at the players descretion	PROGRAM 3	PROGRAMMABLE 4	PROGRAMMIERBAR 3	PROGRAMABLE 4	プログラム可能 4	PROGRAMÁVEL 4	ДВИЖЕНИЕ X	可编程 4
+binding_digital_push_to_talk	an input binding action which activates voice recording in game	PUSH TO TALK						НАЖАТЬ ДЛЯ РАЗГОВОРА	
+binding_axis_character_move_x	an input binding to control player movement along the horizontal axis	MOVE X	DÉPLACER X	PROGRAMMIERBAR 5	MOVER X	X 軸移動	MOVER X	ПРОСМОТРЕТЬ X	X 轴移动
+binding_axis_character_move_y	an input binding to control player movement along the vertical axis	MOVE Y	DÉPLACER Y	BEWEGUNG X	MOVER Y	Y 軸移動	MOVER Y	ПРОСМОТРЕТЬ Y	Y 轴移动
+binding_axis_character_look_x	an input binding to control camera rotation leftward and rightward relative to the player's view direction	VIEW X	VUE X	BEWEGUNG Y	VER X	X 軸ビュー	VISUALIZAR X	РУЛЕВОЕ УПРАВЛЕНИЕ	X 轴视图
+binding_axis_character_look_y	an input binding to control camera rotation upward and downward relative to the player's view direction	VIEW Y	VUE Y	ANSICHT X	VER Y	Y 軸ビュー	VISUALIZAR Y	ЛЕВАЯ ПЕДАЛЬ	Y 轴视图
+binding_axis_steering_axis_1	an input binding to control left and right movement of a steering wheel	STEERING	VOLANT	ANSICHT Y	DIRECCIÓN	ステアリング	DIREÇÃO	ПРАВАЯ ПЕДАЛЬ	转向
+binding_axis_steering_axis_3	an input binding to control the left pedal of a steering wheel	LEFT PEDAL	PÉDALE GAUCHE	LENKUNG	PEDAL IZQUIERDO	左ペダル	PEDAL ESQUERDO	КРУГ	左侧踏板
+binding_axis_steering_axis_4	an input binding to control the right pedal of a steering wheel	RIGHT PEDAL	PÉDALE DROITE	LINKES PEDAL	PEDAL DERECHO	右ペダル	PEDAL DIREITO	НАКЛОН	右侧踏板
+binding_axis_flight_axis_1	an input binding to control left and right movement of a flight stick	ROLL	ROULIS	RECHTES PEDAL	ROLLO	ロール	ROLAR	ЛЕВАЯ ПЕДАЛЬ	滚动
+binding_axis_flight_axis_2	an input binding to control forward and backward movement of a flight stick	PITCH	TANGAGE	ROLLEN	CABECEO	ピッチ	INCLINAR	ПРАВАЯ ПЕДАЛЬ	俯仰
+binding_axis_flight_axis_3	an input binding to control the left pedal of a steering wheel	LEFT PEDAL	PÉDALE GAUCHE	NEIGUNG	IZQUIERDA PEDAL	左ペダル	ESQUERDA PEDAL	### ОТРИЦАТЕЛЬНЫЙ	左踏板
+binding_axis_flight_axis_4	an input binding to control the right pedal of a steering wheel	RIGHT PEDAL	PÉDALE DROITE	LINKES PEDAL	PEDAL DERECHO	右ペダル	PEDAL DIREITO	### ПОЛОЖИТЕЛЬНЫЙ	右踏板
+binding_negative	a modifier for an axial input binding to refer to exclusively the negative end of the axis input. the first gap (###) is the name of the input	### NEGATIVE	### NÉGATIF	RECHTS PEDAL	### NEGATIVO	### 負	### NEGATIVO	НЕ НАЗНАЧЕНО	### 负
+binding_positive	a modifier for an axial input binding to refer to exclusively the positive end of the axis input. the first gap (###) is the name of the input	### POSITIVE	### POSITIF	### NEGATIV	### POSITIVO	### 正	### POSITIVO	Устраните конфликты привязок для применения	### 正
+binding_unassigned	a label to describe an action that has no keyboard, mouse or gamepad input assigned to it	UNASSIGNED	NON ASSIGNÉ	### POSITIV	SIN ASIGNAR	未割り当て	NÃO ATRIBUÍDO	Чтобы изменения вступили в силу, необходимо применить настройки	未分配
+binding_resolve_conflicting_bindings_to_apply	a prompt message telling the user that they need to resolve conflicting input bindings before they can apply their control settings changes	Resolve conflicting bindings to apply	Résoudre les conflits d'affectation Appliquer	NICHT ZUGEWIESEN	Resolver las asignaciones conflictivas para aplicar	適用するには競合するバインドを解決してください	Resolva as vinculações conflitantes para aplicar	### привязан к ###	解决冲突的绑定以应用
+binding_settings_must_be_applied_for_changes_to_take_effect	a prompt message telling the user that they need to apply changes to their settings for them to take effect	Settings must be applied for changes to take effect	Les paramètres doivent être appliqués pour que les modifications prennent effet.	Lösen Sie widersprüchliche Bindungen, um sie anzuwenden.	Los cambios deben aplicarse para que surtan efecto	変更を有効にするには設定を適用する必要があります	As configurações devem ser aplicadas para que as alterações entrem em vigor	Нажмите клавишу для повторной привязки	必须应用设置才能使更改生效
+rebind_is_bound_to	a statement explaining which input is bound to which action. the first gap (###) is the name of the action and the second gap (###) is the name of the input	### is bound to ###	### est lié à ###	Einstellungen müssen angewendet werden, damit Änderungen wirksam werden.	### está asignado a ###	### は ### にバインドされています	### está vinculado a ###	Нажмите клавишу/кнопку мыши для повторной привязки	### 已绑定到 ###
+rebind_press_key_to_rebind	a prompt explaining the action the user needs to take with the keyboard to register an input to an action	Press key to rebind	Appuyer sur la touche pour réassocier	### ist an ### gebunden.	Pulsar la tecla para reasignar	再バインドするにはキーを押してください	Pressione a tecla para revincular	Нажмите кнопку геймпада для повторной привязки	按下 键重新绑定
+rebind_press_key_mouse_button_to_rebind	a prompt explaining the action the user needs to take with the keyboard or mouse to register an input to an action	Press key/mouse button to rebind	Appuyer sur la touche/le bouton de la souris pour réassocier	Taste drücken, um die Bindung neu zu binden.	Pulsar la tecla/botón del ratón para reasignar	再バインドするにはキー/マウス ボタンを押してください	Pressione a tecla/botão do mouse para revincular	Нажмите ### на клавиатуре или ### на геймпаде для отмены	按下 键/鼠标按钮重新绑定
+rebind_press_gamepad_button_to_rebind	a prompt explaining the action the user needs to take with the gamepad to register an input to an action	Press gamepad button to rebind	Appuyer sur le bouton de la manette pour réassocier	Taste/Maustaste drücken, um die Bindung neu zu binden.	Pulsar el botón del mando para reasignar	再バインドするにはゲームパッド ボタンを押してください	Pressione o botão do controle para revincular	Очистить привязку	按下游戏手柄按钮重新绑定
+rebind_press_esc_on_keyboard_or_start_on_gamepad_to_cancel	a statement explaining that pressing certain keys or buttons will cancel the action. the first gap (###) is the name of the keyboard key that will cancel the action and the second gap (###) is the name of the gamepad button which will cancel the action	Press ### on keyboard or ### on gamepad to cancel	Appuyer sur ### sur le clavier ou ### sur la manette pour annuler	Gamepad-Taste drücken, um die Bindung neu zu binden.	Pulsar ### en el teclado o ### en el mando para cancelar	キャンセルするにはキーボードの ### またはゲームパッドの ### を押してください	Pressione ### no teclado ou ### no controle para cancelar	Вы уверены, что хотите очистить привязку для ###?	按下键盘上的 ### 或游戏手柄上的 ### 取消
+unbind_title	a title summarising the act of deregistering an input from an action	Clear Binding	Supprimer l'association	### auf der Tastatur oder ### auf dem Gamepad drücken, um abzubrechen.	Borrar asignación	バインドをクリア	Limpar vinculação	Оконный	清除绑定
+unbind_are_you_sure_you_want_to_clear_the_bind_for	a yes-no question asking the user if they want to deregister an input from an action. the first gap (###) is the name of the action	Are you sure you want to clear the bind for ###?	Êtes-vous sûr de vouloir annuler l'association pour ### ?	Bindung löschen	¿Seguro que quieres borrar la asignación de ###?	### のバインドをクリアしてもよろしいですか?	Tem certeza de que deseja limpar a vinculação para ###?	Полноэкранный	您确定要清除 ### 的绑定吗？
+window_mode_windowed	a label to describe the window mode when the game is displayed in only a portion of the screen	Windowed	Fenêtré	Möchten Sie die Bindung für ### wirklich löschen?	En ventana	ウィンドウ表示	Em janela	Выкл	窗口
+window_mode_fullscreen	a label to describe the window mode when the game is displayed filling the screen	Fullscreen	Plein écran	Fenstermodus	Pantalla completa	全画面表示	Tela cheia	Подробный	全屏
+tooltip_detail_off	a label to describe not displaying component tooltips on the HUD	Off	Désactivé	Vollbildmodus	Desactivado	オフ	Desligado	Небольшой процент людей может испытывать припадки при воздействии определенных визуальных образов, включая световые узоры или мигающие огни, даже без истории эпилепсии или припадков.	关闭
+tooltip_detail_detailed	a label to describe displaying component tooltips on the HUD	Detailed	Détaillé	Aus	Detallado	詳細	Detalhado	НЕМЕДЛЕННО прекратите игру и обратитесь к врачу, если у вас возникли какие-либо симптомы.	详细
+photosensitivity_warning_information	an explanation of photosensitivity for the user	A small percentage of individuals may experience seizures when exposed, to certain visual images, including light patterns or flashing lights, even with no history of epilepsy or seizures.	Un faible pourcentage de personnes peuvent être sujettes à des crises d'épilepsie lorsqu'elles sont exposées à certaines images, notamment des motifs lumineux ou des lumières clignotantes, même sans antécédents d'épilepsie ou de crises d'épilepsie.	Detailliert	Un pequeño porcentaje de personas puede experimentar convulsiones al exponerse a ciertas imágenes visuales, como patrones de luz o luces intermitentes, incluso sin antecedentes de epilepsia o convulsiones.	てんかんや発作の履歴がなくても、光のパターンや点滅する光などの特定の視覚画像にさらされると、ごく一部の人が発作を起こすことがあります。	Uma pequena porcentagem de indivíduos pode sofrer convulsões quando expostos a certas imagens visuais, incluindo padrões de luz ou luzes piscantes, mesmo sem histórico de epilepsia ou convulsões.	ПОДТВЕРЖДЕНИЕ ВЫХОДА	一小部分人在接触某些视觉图像（包括光图案或闪光）时可能会出现癫痫发作，即使没有癫痫或癫痫病史。
+photosensitivity_warning_advice	advice to players about photosensitivty if they experience symptoms	IMMEDIATELY stop playing and consult a doctor if you experience any symptoms.	Arrêtez IMMÉDIATEMENT de jouer et consultez un médecin si vous ressentez des symptômes.	Ein kleiner Prozentsatz von Personen kann bei bestimmten visuellen Eindrücken, einschließlich Lichtmustern oder blinkenden Lichtern, Anfälle erleiden, auch wenn sie keine Vorgeschichte von Epilepsie oder Anfällen haben.	Deja de jugar INMEDIATAMENTE y consulta a un médico si experimentas algún síntoma.	症状が現れた場合は、直ちにプレイを中止し、医師に相談してください。	PARE de jogar IMEDIATAMENTE e consulte um médico se sentir algum sintoma.	Вы уверены, что хотите выйти из Not Stormworks 2?	如果您出现任何症状，请立即停止游戏并咨询医生。
+exit_game_title	a title summarising the act of confirming that the user wishes to close the application	EXIT CONFIRMATION	CONFIRMATION DE QUITTER	Beenden Sie das Spiel SOFORT und suchen Sie einen Arzt auf, wenn Symptome auftreten.	CONFIRMACIÓN DE SALIDA	終了の確認	CONFIRMAÇÃO DE SAÍDA	УДАЛИТЬ СОХРАНЕНИЕ	退出确认
+exit_game_are_you_sure_you_want_to_exit	a yes-no question asking the user if they want to close the application	Are you sure you want to exit Anymaker?	Êtes-vous sûr de vouloir quitter Stormworks 2 ?	BESTÄTIGUNG ZUM BEENDEN	¿Seguro que quieres salir de Not Stormworks 2?	Not Stormworks 2 を終了してもよろしいですか?	Tem certeza de que deseja sair do Not Stormworks 2?	Вы уверены, что хотите удалить ###?	您确定要退出 Not Stormworks 2 吗？
+delete_save_title	a title summarising the act of deleting a save file	DELETE SAVE	SUPPRIMER LA SAUVEGARDE	Möchten Sie „Not Stormworks 2“ wirklich beenden?	ELIMINAR GUARDAR	セーブを削除	EXCLUIR SALVAR	ЗАГРУЗИТЬ СОХРАНЕНИЕ	删除保存
+delete_save_are_you_sure_you_want_to_delete	a yes-no question asking the user if they want to delete a save file. the first gap (###) is the name of the save game	Are you sure you want to delete ###?	Êtes-vous sûr de vouloir supprimer ### ?	LÖSCHEN SPEICHERN	¿Seguro que quieres eliminar ###?	### を削除してもよろしいですか?	Tem certeza de que deseja excluir ###?	Вы уверены, что хотите загрузить ###?	您确定要删除###吗？
+load_save_title	a title summarising the act of loading a save file	LOAD SAVE	CHARGER LA SAUVEGARDE	Möchten Sie ### wirklich löschen?	CARGAR GUARDADO	セーブをロード	CARREGAR SALVAR	МЕНЮ ИГРЫ	加载保存
+load_save_are_you_sure_you_want_to_load	a yes-no question asking the user if they want to load into a save game. the first gap (###) is the name of the save game	Are you sure you want to load ###?	Êtes-vous sûr de vouloir charger ### ?	SPIELSTAND LADEN	¿Seguro que quieres cargar ###?	### をロードしてもよろしいですか?	Tem certeza de que deseja carregar ###?	СОЗДАТЬ НОВОЕ СОХРАНЕНИЕ	您确定要加载###吗？
+unsubscribe_title	a title summarising the act of unsubscribing from a Steam Workshop iten	UNSUBSCRIBE						ОТПИСАТЬСЯ	
+unsubscribe_are_you_sure_you_want_to_delete	a yes-no question asking the user if they want to unsubscribe from a Steam Workshop item. the first gap (###) is the name of the item	Are you sure you want to unsubscribe from ###?						Вы уверены, что хотите отписаться от ###?	
+pause_menu_title	the pause game menu title. this menu allows the user to return to game, exit to main menu, modify options etc.	GAME MENU	MENU DU JEU	Möchten Sie ### wirklich laden?	MENÚ DEL JUEGO	ゲーム メニュー	MENU DO JOGO	Введите имя...	游戏菜单
+create_save_title	a title summarising the act of creating a new save file	CREATE NEW SAVE	CRÉER UNE NOUVELLE SAUVEGARDE	SPIELMENÜ	CREAR NUEVO GUARDADO	セーブを新規作成	CRIAR NOVO SALVAR	Имя сохранения слишком короткое.	创建新保存
+create_save_name_hint	a prompt for the textbox where the user enters their save game's name	Enter Name...	Saisissez un nom...	NEUE SPIELSTAND ERSTELLEN	Introducir nombre...	名前を入力...	Digite o nome...	Имя сохранения должно быть уникальным.	输入名称...
+create_save_name_too_short	a prompt explaining that the save game name entered is too short	Save name too short.	Nom de la sauvegarde trop court.	Name eingeben...	El nombre del guardado es demasiado corto.	セーブ名が短すぎます。	O nome do salvamento é muito curto.	ПЕРЕЗАПИСАТЬ СОХРАНЕНИЕ	保存名称太短。
+overwrite_save_title	a title summarising the act of overwriting an existing save file with new save game data	OVERWRITE SAVE	ÉCRASER LA SAUVEGARDE	Spielstandname muss eindeutig sein.	SOBRESCRIBIR GUARDADO	セーブを上書き	SOBRESCREVER SALVAR	ВНИМАНИЕ: вы не сможете вернуть перезаписанные данные!	覆盖保存
+overwrite_save_are_you_sure_you_want_to_overwrite	a yes-no question asking the user if they want to overwrite a save file. the first gap (###) is the name of the save file	Are you sure you want to overwrite ###?	Êtes-vous sûr de vouloir écraser ### ?	SPIELSTAND ÜBERSCHREIBEN	¿Seguro que quieres sobrescribir ###?	### を上書きしてもよろしいですか?	Tem certeza de que deseja sobrescrever ###?	ОТКРЫТЬ ДЛЯ МНОГОПОЛЬЗОВАТЕЛЬСКОГО РЕЖИМА	您确定要覆盖###吗？
+overwrite_save_warning_you_wont_be_able_to_get_your_overwritten_data_back	a prompt explaining that overwriting a save with new data will make the data currently held in the save irrecoverable	WARNING: You won't be able to get your overwritten data back!	ATTENTION : Vous ne pourrez pas récupérer les données écrasées !	Möchten Sie ### wirklich überschreiben?	ADVERTENCIA: ¡No podrás recuperar los datos sobrescritos!	警告: 上書きしたデータは元に戻せません!	AVISO: Você não poderá obter seus dados sobrescritos de volta!	МАКСИМУМ ИГРОКОВ	警告：您将无法恢复覆盖的数据！
+pending_save_title	a title explaining that the game is currently saving	SAVING GAME...						СОХРАНЕНИЕ ИГРЫ...	
+host_open_to_friends	a label for a setting which enables rich presence connections to the game	OPEN TO FRIENDS						ОТКРЫТО ДЛЯ ДРУЗЕЙ	
+host_invite_code	a label for the invite code which clients can join the game with	INVITE CODE						КОД ПРИГЛАШЕНИЯ	
+host_invite_code_copy	a label for a button which copies the invite code to the clipboard	Copy						Копировать	
+host_invite_code_regenerate	a label for a button which regenerates the invite code	Regenerate						Сгенерировать заново	
+host_max_players	a label for a setting which limits the maximum number of players that can be connected to the server simultaneously	MAX PLAYERS	MAX JOUEURS	MEHRSPIELERMODUS	MÁXIMO DE JUGADORES	最大プレイヤー数	MÁXIMO DE JOGADORES	Введите пароль...	最大玩家数
+join_invite_code_hint	a prompt for a textbox where the user enters their invite code to join a server	Enter Invite Code...						Введите код приглашения...	
+join_invite_code_paste	a label for a button which pastes the invite code from the clipboard	Paste						Вставить	
+game_over_title	a title for the game over screen telling the player that they have died and need to load a save game or quit to menu	GAME OVER						ИГРА ОКОНЧЕНА	
+respawn_title	a title for the respawn screen which tells the player how long before they respawn after dying	RESPAWNING						ВОЗРОЖДЕНИЕ	
+exit_to_main_menu_title	a title summarising the act of leaving the game and returning to the main menu	EXIT CONFIRMATION	CONFIRMATION DE SORTIE	Passwort eingeben...	CONFIRMACIÓN DE SALIDA	終了の確認	CONFIRMAÇÃO DE SAIR	Любой несохраненный прогресс будет утерян	退出确认
+exit_to_main_menu_are_you_sure_you_want_to_exit_to_main_menu	a yes-no question asking if the user wants to return to the main menu	Are you sure you want to exit to the main menu?	Êtes-vous sûr de vouloir revenir au menu principal ?	BEENDEN-BESTÄTIGUNG	¿Seguro que quieres salir al menú principal?	メイン メニューに終了してもよろしいですか?	Tem certeza de que deseja sair para o menu principal?	СВОЙСТВА КОМПОНЕНТА	您确定要退出到主菜单吗？
+any_unsaved_progress_will_be_lost	a prompt explaining to the user that if they go through with this action, any progress they have made in the game since last saving will not be saved	Any unsaved progress will be lost	Toute progression non enregistrée sera perdue.	Möchten Sie wirklich zum Hauptmenü zurückkehren?	Se perderá cualquier progreso no guardado.	保存されていない進行状況は失われます	Qualquer progresso não salvo será perdido	нет свойств	任何未保存的进度都将丢失
+properties_title	a heading for the screen which displays all of the modifiable properties of a component to a player	COMPONENT PROPERTIES	PROPRIÉTÉS DES COMPOSANTS	Nicht gespeicherte Fortschritte gehen verloren.	PROPIEDADES DEL COMPONENTE	コンポーネント プロパティ	PROPRIEDADES DO COMPONENTE	СВОЙСТВА КОМПОНЕНТА	组件属性
+properties_no_properties	a prompt explaining that the inspected component has no modifiable properties	no properties	Aucune propriété	KOMPONENTENEIGENSCHAFTEN	Sin propiedades	プロパティなし	nenhuma propriedade	нет свойств	无属性
+tooltip_occupied	a tooltip label showing if a seat has a player sitting in it or not	OCCUPIED	OCCUPÉ	Keine Eigenschaften	OCUPADO	占有	OCUPADO	ЗАНЯТО	已占用
+tooltip_steering	a tooltip label showing the angle which is a wheel is rotated to	STEERING	DIRECTION	BESETZT	DIRECCIÓN	ステアリング	DIREÇÃO	РУЛЕВОЕ	转向
+tooltip_force	a tooltip label showing the physical quantity of force (measured in Newtons)	FORCE	FORCE	LENKKRAFT	FUERZA	力	FORÇA	УСИЛИЕ	力
+tooltip_speed_rotations_per_second	a tooltip label showing the rotations per second of a component (measured in Hertz)	SPEED	VITESSE	GESCHWINDIGKEIT	VELOCIDAD	速度	VELOCIDADE	СКОРОСТЬ	速度
+tooltip_brake	a tooltip label showing the percentage of braking applied to the wheels with 0% being no application and 100% being fully applied	BRAKE	FREIN	BREMSWERT	FRENO	ブレーキ	FREIO	ТОРМОЗНОЕ	制动
+tooltip_value	a tooltip label showing a numeric value	VALUE	VALEUR	OFFSET	VALOR	値	VALOR	ЗНАЧЕНИЕ	值
+tooltip_value_named	a tooltip label showing a numeric value. the first gap (###) is the identifier of the value	VALUE ###						ЗНАЧЕНИЕ ###	
+tooltip_offset	a tooltip label showing a numeric value which will be added to another value	OFFSET	DÉCALAGE	SKALA	DESPLAZAMIENTO	オフセット	OFFSET	СМЕЩЕНИЕ	偏移
+tooltip_scale	a tooltip label showing a numeric value which will multiply another value	SCALE	ÉCHELLE	ZUSTAND	ESCALA	スケール	ESCALA	МАСШТАБ	比例
+tooltip_condition	a tooltip label showing the working state of a component	CONDITION	ÉTAT	DURCHFLUSS	CONDICIÓN	状態	CONDIÇÃO	СОСТОЯНИЕ	条件
+tooltip_mass	a tooltip label showing the mass of an object	MASS						МАССА	
+tooltip_flow_fluid	a tooltip label showing the flow of a liquid or gas inside a component (measured in Liters per second)	FLOW	DÉBIT	INHALT	FLUJO	フロー	FLUXO	РАСХОД	流量
+tooltip_content_fluid	a tooltip label showing the volume of a liquid or gas inside of a component (measured in Liters)	CONTENT	CONTENU	DROSSELKLAPPEN	CONTENIDO	コンテンツ	CONTEÚDO	СОДЕРЖИМОЕ	内容
+tooltip_content_fluid_identifier	a tooltip label showing the volume of a liquid or gas inside of a component (measured in Liters). the first gap (###) is the number of the content in the component	CONTENT ###						СОДЕРЖИМОЕ ###	
+tooltip_capacity_fluid	a tooltip label showing the capacity of a liquid or gas inside of a component (measured in Liters)	CAPACITY						ЁМКОСТЬ	
+tooltip_throttle	a tooltip label showing the relative power supplied by the engine	THROTTLE	ACCÉLÉRATEUR	TEMPERATUR	ACELERADOR	スロットル	ACELERADOR	ДРОССЕЛЬ	油门
+tooltip_temperature	a tooltip label showing the temperature of a component	TEMPERATURE	TEMPÉRATURE	LEISTUNG	TEMPERATURA	温度	TEMPERATURA	ТЕМПЕРАТУРА	温度
+tooltip_temperature_identifier	a tooltip label showing the temperature of a component. the first gap (###) is the number of the part of the component	TEMPERATURE ###						ТЕМПЕРАТУРА ###	
+tooltip_power	a tooltip label showing the physical quanitity of power (measured in Watts)	POWER	PUISSANCE	DRUCK	POTENCIA	電力	POTÊNCIA	МОЩНОСТЬ	功率
+tooltip_pressure_fluid	a tooltip label showing the physical quantity of pressure in a liquid or gas inside a component (measured in Atmospheres)	PRESSURE	PRESSION	STATISCHER DRUCK	PRESIÓN	圧力	PRESSÃO	ДАВЛЕНИЕ	压力
+tooltip_static_pressure_fluid	a tooltip label showing the the physical quantity of pressure in a liquid or gas at a single point	STATIC PRESSURE	PRESSION STATIQUE	SPEICHER	PRESIÓN ESTÁTICA	静圧	PRESSÃO ESTÁTICA	СТАТИЧЕСКОЕ ДАВЛЕНИЕ	静压
+tooltip_electric_energy_store	a tooltip label showing the amount of electrical energy stored in a component (measured in Kilowatt-hours)	STORE	MÉMOIRE	VERBRAUCH	ALMACENAMIENTO	ストア	ARMAZENAR	ХРАНИЛИЩЕ	存储
+tooltip_electric_power_consumption	a tooltip label showing the rate of convertion of electrical energy to another form by a component (measured in Watts)	CONSUMPTION	CONSOMMATION	EINGABE	CONSUMO	消費量	CONSUMO	РАСХОД	消耗
+tooltip_input_boolean	a tooltip label showing if a component is receiving an on or off signal	INPUT	ENTRÉE	WINKEL	ENTRADA	入力	ENTRADA	ВХОД	输入
+tooltip_output_boolean	a tooltip label showing which direction a component is outputting	OUTPUT						ВЫХОД	
+tooltip_is_covered	a tooltip label showing if a component is covered	COVERED						ЗАКРЫТО	
+tooltip_is_powered	a tooltip label showing if a component is powered	POWERED						ПОД ПИТАНИЕМ	
+tooltip_angle	a tooltip label showing the rotation of part of a component along one axis in relation to the rest of the component	ANGLE	ANGLE	KNOTEN ### GESCHWINDIGKEIT	ÁNGULO	角度	ÂNGULO	УГОЛ	角度
+tooltip_node_speed_rotations_per_second	a tooltip label showing the rotations per second of a component at a point within a torque network. the first gap (###) is the number of the node in the component	NODE ### SPEED	NŒUD ### VITESSE	ROLLEN	NODO ### VELOCIDAD	ノード ### 速度	NÓ ### VELOCIDADE	УЗЕЛ ### СКОРОСТЬ	节点###速度
+tooltip_roll_rotation_axis	a tooltip label showing rotation around the longitudinal (forward-backward) axis	ROLL	ROULIS	NEIGEN	BALANCAMIENTO	ロール	ROLL	КРЕНО	滚动
+tooltip_pitch_rotation_axis	a tooltip label showing rotation around the lateral (left-right) axis	PITCH	TANGAGE	GIEREN	CABECEO	ピッチ	PITCH	ТАНГ	俯仰
+tooltip_yaw_rotation_axis	a tooltip label showing rotation around the vertical (up-down) axis	YAW	LACET	GIEREN	GUIÑADA	ヨー	GUIA	РЫСКАНИЕ	偏航
+tooltip_pedal_l	a tooltip label describing the left pedal of a steering wheel or flight stick	PEDAL L	PÉDALE G	PEDAL L	PEDAL IZQUIERDO	ペダル L	PEDAL L	ПЕДАЛЬ L	左踏板
+tooltip_pedal_r	a tooltip label describing the right pedal of a steering wheel or flight stick	PEDAL R	PÉDALE D	PEDAL R	PEDAL DERROTO	ペダル R	PEDAL R	ПЕДАЛЬ R	右踏板
+tooltip_gear	a tooltip label showing the gear that a gearbox is in e.g. Neutral, 1st, 2nd, 3rd etc.	GEAR	VITESSE	GANG	ENGRANAJE	ギア	ENGRENAGEM	ПЕРЕДАЧА	齿轮
+tooltip_clutch	a tooltip label showing the percentage of the clutch being applied by the gearbox with 0% being no application and 100% being fully applied	CLUTCH	EMBRAYAGE	KUPPLUNG	EMBRAGUE	クラッチ	EMBREAGEM	СЦЕПЛЕНИЕ	离合器
+tooltip_gear_ratio	a tooltip label showing the gear ratio between two nodes on a component	GEAR RATIO	RAPPORT DE DÉmultiplication	ÜBERSETZUNG	RELACIÓN DE ENGRANAJES	ギア比	RELAÇÃO DE ENGRENAGENS	ПЕРЕДАЧА	齿轮比
+tooltip_air	a tooltip label showing the flow of air into a component	AIR	AIR	LUFT	AIRE	空気	AR	ВОЗДУХ	空气
+tooltip_fuel	a tooltip label showing the flow of fuel into a component	FUEL	CARBURANT	KRAFTSTOFF	COMBUSTIBLE	燃料	COMBUSTÍVEL	ТОПЛИВО	燃料
+tooltip_exhaust	a tooltip label showing the flow of waste gas out of a component	EXHAUST	ÉCHAPPEMENT	ABGAS	ESCAPE	排気	ESCAPE	ВЫХЛОПНАЯ	排气
+tooltip_oil	a tooltip label showing the flow of oil into a component	OIL	HUILE	ÖL	ACEITE	オイル	ÓLEO	МАСЛО	油
+tooltip_oil_quality	a tooltip label showing the quality of oil into a component	OIL QUALITY						КАЧЕСТВО МАСЛА	
+tooltip_coolant	a tooltip label showing the flow of coolant into a component	COOLANT	LIQUIDE DE REFROIDISSEMENT	KÜHLMITTEL	REFRIGERANTE	冷却剤	REFRIGERANTE	ОХЛАЖДАЮЩАЯ ЖИДКОСТЬ	冷却液
+tooltip_gearbox	a tooltip label showing the number of gearboxes connected to an engine	GEARBOX	BOÎTE DE VITESSES	GETRIEBE	CAJA DE CAMBIOS	ギアボックス	CAIXA DE ENGRENAGENS	КОРОБКА ПЕРЕДАЧ	变速箱
+tooltip_accessories	a tooltip label showing the number of supplementary components connected to another component	ACCESSORIES	ACCESSOIRES	ZUBEHÖR	ACCESORIOS	アクセサリ	ACESSÓRIOS	АКСЕССУАРЫ	配件
+tooltip_is_incapacitated	a tooltip label showing if an actor is incapacitated or not	INCAPACITATED						ОБЕЗДВИЖЕН	
+tooltip_person	a tooltip label for character actors which don't have a peer controlling them	PERSON						ЧЕЛОВЕК	
+tooltip_no_manifold	a tooltip label reporting that there is no manifolds of a particular type attached to a component when there needs to be more for the component to work	NO MANIFOLD	AUCUN COLLECTEUR	KEIN VERTEILER	SIN COLECTOR	マニホールドなし	SEM MANIFOLD	БЕЗ КОЛЛЕКТОРА	无歧管
+tooltip_one_manifold	a tooltip label reporting that there is only one manifolds of a particular type attached to a component when there needs to be more for the component to work	1 MANIFOLD	1 COLLECTEUR	1 VERTEILER	1 COLECTOR	1 マニホールド	1 MANIFOLD	1 КОЛЛЕКТОР	1 歧管
+tooltip_no_gearbox	a tooltip label reporting that there is no gearbox attached to a component when there needs to be more for the component to work	NO GEARBOX	AUCUNE BOÎTE DE VITESSES	KEIN GETRIEBE	SIN CAJA DE CAMBIOS	ギアボックスなし	SEM CAIXA DE ENGRENAGENS	БЕЗ КОРОБКИ ПЕРЕДАЧ	无变速箱
+tooltip_no_filter	a tooltip label reporting that there is no filter (for example an oil filter or an air filter) attached to a component when there needs to be for the component to work	NO FILTER						НЕТ ФИЛЬТРА	
+tooltip_trigger	a tooltip label showing the trigger state of a weapon component	TRIGGER						СПУСК	
+tooltip_breech	a tooltip label showing the breech state of a weapon component	BREECH						ЗАТВОР	
+tooltip_loaded	a tooltip label showing the loaded state of a weapon component	LOADED						ЗАРЯЖЕНО	
+tooltip_true	a tooltip label reporting the state of a property as true	TRUE	VRAI	WAHR	VERDADERO	TRUE	VERDADEIRO	ИСТИНА	真
+tooltip_false	a tooltip label reporting the state of a property as false	FALSE	FAUX	FALSCH	FALSO	FALSE	FALSO	ЛОЖЬ	假
+tooltip_on	a tooltip label reporting the state of a property as on	ON	ACTIVÉ	EIN	ENCENDIDO	オン	LIGADO	ВКЛ	开
+tooltip_off	a tooltip label reporting the state of a property as off	OFF	DÉSACTIVÉ	AUS	APAGADO	オフ	DESLIGADO	ВЫКЛ	关
+tooltip_open	a tooltip label reporting the state of a property is open	OPEN						ОТКРЫТО	
+tooltip_closed	a tooltip label reporting the state of a property is closed	CLOSED						ЗАКРЫТО	
+tooltip_button	a tooltip label reporting that this is an interactive button	BUTTON						КНОПКА	
+tooltip_damaged	a tooltip label reporting that this object has suffered damage	DAMAGED						ПОВРЕЖДЕНО	
+tooltip_left	a tooltip label reporting that the state of a property is left	LEFT						ВЛЕВО	
+tooltip_right	a tooltip label reporting that the state of a property is right	RIGHT						ВПРАВО	
+tooltip_up	a tooltip label reporting that the state of a property is up	UP						ВВЕРХ	
+tooltip_down	a tooltip label reporting that the state of a property is down	DOWN						ВНИЗ	
+tooltip_is_disengaged	a tooltip label reporting the state of a clutch	DISENGAGED						РАЗЪЕДИНЕНО	
+tooltip_is_recording	a tooltip label reporting the state of an audio input	RECORDING						ЗАПИСЬ	
+tooltip_is_transmitting	a tooltip label reporting the state of an antenna	TRANSMITTING						ПЕРЕДАЧА	
+tooltip_is_receiving	a tooltip label reporting the state of an antenna	RECEIVING						ПРИЁМ	
+tooltip_connected	a tooltip label reporting whether a multi-part component is connected to its counterpart	CONNECTED						ПОДКЛЮЧЕНО	
+tooltip_transmit_channel	a tooltip label reporting the channel a component transmits on	CHANNEL						КАНАЛ	
+tooltip_electric_node	a tooltip label for an unnamed electric node	ELECTRIC NODE						ЭЛЕКТРИЧЕСКИЙ УЗЕЛ	
+tooltip_liquid_node	a tooltip label for a unnamed liquid node	LIQUID NODE						ЖИДКОСТНЫЙ УЗЕЛ	
+tooltip_gas_node	a tooltip label for a unnamed gas node	GAS NODE						ГАЗОВЫЙ УЗЕЛ	
+tooltip_mechanical_in_node	a tooltip label for a unnamed mechanical input node	MECHANICAL INPUT NODE						МЕХАНИЧЕСКИЙ ВХОДНОЙ УЗЕЛ	
+tooltip_mechanical_out_node	a tooltip label for a unnamed mechanical output node	MECHANICAL OUTPUT NODE						МЕХАНИЧЕСКИЙ ВЫХОДНОЙ УЗЕЛ	
+tooltip_data_node	a tooltip label for a unnamed data node	DATA NODE						УЗЕЛ ДАННЫХ	
+tooltip_belt_node	a tooltip label for a unnamed belt node	BELT NODE						УЗЕЛ РЕМНЯ	
+tooltip_track_node	a tooltip label for a unnamed track node	TRACK NODE						УЗЕЛ ГУСЕНИЦЫ	
+tooltip_hydraulic_base_node	a tooltip label for a unnamed hydraulic base node	HYDRAULIC BASE NODE						БАЗОВЫЙ ГИДРОУЗЕЛ	
+tooltip_hydraulic_node	a tooltip label for a unnamed hydraulic node	HYDRAULIC NODE						ГИДРОУЗЕЛ	
+tooltip_throttle_node	a tooltip label for a mechanical node which controls throttle	THROTTLE NODE						УЗЕЛ ГАЗА	
+tooltip_trigger_node	a tooltip label for a mechanical node which controls the trigger of a mounted weapon	TRIGGER NODE						УЗЕЛ СПУСКА	
+tooltip_breech_node	a tooltip label for a mechanical node which controls the breech of a mounted weapon	BREECH NODE						УЗЕЛ ЗАТВОРА	
+tooltip_brake_node	a tooltip label for a mechanical node which controls the braking of a component	BRAKE NODE						УЗЕЛ ТОРМОЗА	
+tooltip_clutch_node	a tooltip label for a mechanical node which controls the clutching of a component	CLUTCH NODE						УЗЕЛ СЦЕПЛЕНИЯ	
+tooltip_rotation_node	a tooltip label for a mechanical node which controls the rotation of a component	ROTATION NODE						УЗЕЛ ВРАЩЕНИЯ	
+tooltip_activation_node	a tooltip label for a mechanical node which controls the activation of a component	ACTIVATE NODE						УЗЕЛ АКТИВАЦИИ	
+tooltip_roll_node	a tooltip label for a mechanical node which controls the roll of a component	ROLL NODE						УЗЕЛ КРЕНА	
+tooltip_roll_l_node	a tooltip label for a mechanical node which controls the leftward roll of a component	LEFT ROLL NODE						УЗЕЛ КРЕНА ВЛЕВО	
+tooltip_roll_r_node	a tooltip label for a mechanical node which controls the rightward roll of a component	RIGHT ROLL NODE						УЗЕЛ КРЕНА ВПРАВО	
+tooltip_pitch_node	a tooltip label for a mechanical node which controls the pitch of a component	PITCH NODE						УЗЕЛ ТАНГАЖА	
+tooltip_steering_node	a tooltip label for a mechanical node which controls the steering of a component	STEERING NODE						УЗЕЛ РУЛЕНИЯ	
+tooltip_steering_pos_node	a tooltip label for a mechanical node which controls the steering in the positive direction of a component	POSITIVE STEERING NODE						УЗЕЛ РУЛЕНИЯ (+)	
+tooltip_steering_neg_node	a tooltip label for a mechanical node which controls the steering in the negative direction of a component	NEGATIVE STEERING NODE						УЗЕЛ РУЛЕНИЯ (-)	
+tooltip_pedal_l_node	a tooltip label for a mechanical node which controls the left pedal of a component	LEFT PEDAL NODE						УЗЕЛ ЛЕВОЙ ПЕДАЛИ	
+tooltip_pedal_r_node	a tooltip label for a mechanical node which controls the right_pedal of a component	RIGHT PEDAL NODE						УЗЕЛ ПРАВОЙ ПЕДАЛИ	
+tooltip_collective_node	a tooltip label for a mechanical node which controls the collective of a component	COLLECTIVE NODE						УЗЕЛ ОБЩЕГО ШАГА	
+tooltip_gear_shift_node	a tooltip label for a mechanical node which controls the gear shift of a component	GEAR SHIFT NODE						УЗЕЛ ПЕРЕКЛЮЧЕНИЯ ПЕРЕДАЧ	
+tooltip_air_node	a tooltip label for a gas node which controls air flow of a component	AIR NODE						УЗЕЛ ВОЗДУХА	
+tooltip_coolant_node	a tooltip label for a liquid node which controls coolant flow of a component	COOLANT NODE						УЗЕЛ ОХЛАЖДЕНИЯ	
+tooltip_fuel_node	a tooltip label for a liquid node which controls fuel flow of a component	FUEL NODE						УЗЕЛ ТОПЛИВА	
+tooltip_oil_node	a tooltip label for a liquid node which controls oil flow of a component	OIL NODE						УЗЕЛ МАСЛА	
+tooltip_exhaust_node	a tooltip label for a gas node which controls the exhaust flow of a component	EXHAUST NODE						УЗЕЛ ВЫХЛОПА	
+property_component_alias	a label for the setting which sets a user defined name for the component	COMPONENT NAME						НАЗВАНИЕ КОМПОНЕНТА	
+property_count_knob	a label for the setting which sets the number of values a component can output	COUNT	COMPTAGE	ANZAHL	CONTADOR	カウント	CONTAGEM	СЧЕТЧИК	计数
+property_reverse	a label for the setting which toggles the component between working in its default manner and working in the opposite direction	REVERSE	MARCHE ARRIÈRE	RÜCKWÄRTS	REVERSA	リバース	REVERSO	ЗАДНИЙ ХОД	反向
+property_set_empty	a label for the setting which empties the liquid and gas contents of a component	SET EMPTY	RÉGLER VIDE	LEER EINSTELLEN	AJUSTAR VACÍO	空に設定	DEFINIR VAZIO	УСТАНОВИТЬ ПУСТОЙ	设置空
+property_set_air	a label for the setting which fills the contents of a component with air	SET AIR	RÉGLER AIR	LUFT EINSTELLEN	AJUSTAR AIRE	空気を設定	DEFINIR AR	УСТАНОВИТЬ ВОЗДУХ	设置空气
+property_set_water	a label for the setting which fills the contents of a component with water	SET WATER	RÉGLER EAU	WASSER EINSTELLEN	AJUSTAR AGUA	水を設定	DEFINIR ÁGUA	УСТАНОВИТЬ ВОДУ	设置水
+property_set_petrol	a label for the setting which fills the contents of a component with petrol	SET PETROL						ЗАЛИТЬ БЕНЗИН	
+property_set_oil	a label for the setting which fills the contents of a component with engine oil	SET OIL						ЗАЛИТЬ МАСЛО	
+property_input_action	a label for the setting which specifies which input action form the player this component should respond to	INPUT	ENTRÉE	EINGABE	ENTRADA	入力	ENTRADA	ВХОД	输入
+property_input_positive_action	a label for the setting which specifies which input action form the player this component should respond to in a positive direction	INPUT POSITIVE	ENTRÉE POSITIVE	POSITIV EINSTELLEN	ENTRADA POSITIVA	入力正	ENTRADA POSITIVA	ВХОД ПОЛОЖИТЕЛЬНЫЙ	输入正
+property_input_negative_action	a label for the setting which specifies which input action from the player this component should respond to in a negative direction	INPUT NEGATIVE	ENTRÉE NÉGATIVE	NEGATIV EINSTELLEN	ENTRADA NEGATIVA	入力負	ENTRADA NEGATIVA	ВХОД ОТРИЦАТЕЛЬНЫЙ	输入负
+property_tilt_pitch	a label for the setting which specifies the rotation of the component around the lateral (left-right) axis	TILT PITCH	INCLINAISON, ANGLEMENT	NEIGEN	INCLINACIÓN CABECEO	チルト ピッチ	INCLINAR PITCH	НАКЛОН ТАНГАЖ	倾斜俯仰
+property_tilt_yaw	a label for the setting which specifies the rotation of the component around the vertical (up-down) axis	TILT YAW	INCLINAISON, LACET	GIEREN	INCLINACIÓN GUIÑADA	チルトヨー	INCLINAR GUIA	НАКЛОН РЫСКАНИЕ	倾斜偏航
+property_gear_count	a label for the setting which specifies the number of gears this throttle can output a value for	GEAR COUNT	COMPTAGE DES RAPPORTS	ZAHL DER GETRIEBE	ENGRANAJE CONTAR	ギア数	ENGRENAGEM CONTAR	КОЛИЧЕСТВО ПЕРЕДАЧ	齿轮计数
+property_sticky	a label for the setting which specifies if a throttle maintains its position or returns to its neutral position after the player stops interacting with it	STICKY	SÉPARÉ	KLEBRIG	PEGAJOSO	スティッキー	PEGOSO	ЛИПКИЙ	粘性
+property_power	a label for the setting which specifies the level of power output by an electrical component	POWER						МОЩНОСТЬ	
+property_sound_effect	a label for the setting which specifies the audio effect that the component uses	SOUND EFFECT						ЗВУКОВОЙ ЭФФЕКТ	
+property_min	a label for the setting which specifies the minimum value in a range of values	MIN						МИН	
+property_max	a label for the setting which specifies the maximum value in a range of values	MAX						МАКС	
+property_sensitivity_yaw	a label for the setting which specifies the sensitivity of the pilot seat yaw control	YAW SENSITIVITY						ЧУВСТВИТЕЛЬНОСТЬ РЫСКАНИЯ	
+property_sensitivity_pitch	a label for the setting which specifies the sensitivity of the pilot seat pitch control	PITCH SENSITIVITY						ЧУВСТВИТЕЛЬНОСТЬ ТАНГАЖА	
+property_sensitivity_roll	a label for the setting which specifies the sensitivity of the pilot seat roll control	ROLL SENSITIVITY						ЧУВСТВИТЕЛЬНОСТЬ КРЕНА	
+property_sensitivity_steering	a label for the setting which specifies the sensitivity of the steering wheel control	STEERING SENSITIVITY						ЧУВСТВИТЕЛЬНОСТЬ РУЛЯ	
+property_sensitivity_pedal_l	a label for the setting which specifies the sensitivity of the drivers left pedal	L PEDAL SENSITIVITY						ЧУВСТВИТЕЛЬНОСТЬ ЛЕВОЙ ПЕДАЛИ	
+property_sensitivity_pedal_r	a label for the setting which specifies the sensitivity of the drivers right wheel	R PEDAL SENSITIVITY						ЧУВСТВИТЕЛЬНОСТЬ ПРАВОЙ ПЕДАЛИ	
+property_blade_count	a label for the setting which specifies the number of blades on a rotor	BLADE COUNT						КОЛИЧЕСТВО ЛОПАСТЕЙ	
+property_blade_length	a label for the setting which specifies the length of blades on a rotor	BLADE LENGTH						ДЛИНА ЛОПАСТЕЙ	
+property_traverse_limit_left	a label for the setting which specifies the left traverse limit of a weapon pintle mount	TRAVERSE LIMIT LEFT						ПРЕДЕЛ ПОВОРОТА ВЛЕВО	
+property_traverse_limit_right	a label for the setting which specifies the right traverse limit of a weapon pintle mount	TRAVERSE LIMIT RIGHT						ПРЕДЕЛ ПОВОРОТА ВПРАВО	
+property_elevation_limit_down	a label for the setting which specifies the down elevation limit of a weapon pintle mount	ELEVATION LIMIT DOWN						ПРЕДЕЛ НАКЛОНА ВНИЗ	
+property_elevation_limit_up	a label for the setting which specifies the up elevation limit of a weapon pintle mount	ELEVATION LIMIT UP						ПРЕДЕЛ НАКЛОНА ВВЕРХ	
+property_input	a label for the setting which specifies the input value	INPUT						ВХОД	
+property_output	a label for the setting which specifies the output value	OUTPUT						ВЫХОД	
+property_gear_ratio_1	a label for the setting which sets the ratio for gear 1 in the format x:1	GEAR 1 RATIO						ПЕРЕДАТОЧНОЕ ЧИСЛО 1	
+property_gear_ratio_2	a label for the setting which sets the ratio for gear 2 in the format x:1	GEAR 2 RATIO						ПЕРЕДАТОЧНОЕ ЧИСЛО 2	
+property_gear_ratio_3	a label for the setting which sets the ratio for gear 3 in the format x:1	GEAR 3 RATIO						ПЕРЕДАТОЧНОЕ ЧИСЛО 3	
+property_gear_ratio_4	a label for the setting which sets the ratio for gear 4 in the format x:1	GEAR 4 RATIO						ПЕРЕДАТОЧНОЕ ЧИСЛО 4	
+property_gear_ratio_5	a label for the setting which sets the ratio for gear 5 in the format x:1	GEAR 5 RATIO						ПЕРЕДАТОЧНОЕ ЧИСЛО 5	
+property_gear_ratio_6	a label for the setting which sets the ratio for gear 6 in the format x:1	GEAR 6 RATIO						ПЕРЕДАТОЧНОЕ ЧИСЛО 6	
+property_gear_ratio_7	a label for the setting which sets the ratio for gear 7 in the format x:1	GEAR 7 RATIO						ПЕРЕДАТОЧНОЕ ЧИСЛО 7	
+property_gear_ratio_8	a label for the setting which sets the ratio for gear 8 in the format x:1	GEAR 8 RATIO						ПЕРЕДАТОЧНОЕ ЧИСЛО 8	
+property_audio_radius	a label for the setting which controls the radius that sound from a component can be heard at	RADIUS						РАДИУС	
+property_stiffness	a label for the setting which controls the stiffness of a wheel's suspension	STIFFNESS						ЖЁСТКОСТЬ	
+property_damping	a label for the setting which controls the damping of a wheel's suspension	DAMPING						ДЕМПФИРОВАНИЕ	
+property_illuminated	a label allowing a player to set the illumination state of a component	ILLUMINATED						ПОДСВЕТКА	
+lost_connection_title	a title summarising that the user lost connection with the server	LOST CONNECTION	CONNEXION PERDUE	VERBINDUNG VERLOREN	CONEXIÓN PERDIDA	接続が失われました	CONEXÃO PERDIDA	ПОТЕРЯНО СОЕДИНЕНИЕ	失去连接
+failed_to_connect_title	a title summarising that the user was unable to connect to the server	FAILED TO CONNECT	ÉCHEC DE CONNEXION	VERBINDUNG FEHLGESCHLAGEN	NO SE PUDO CONECTAR	接続に失敗しました	FALHA NA CONEXÃO	НЕ УДАЛОСЬ ПОДКЛЮЧИТЬСЯ	连接失败
+new_game_creative_mode	a label for a setting which determines if a new game allows the player to have infinite resources in certain places or not	CREATIVE MODE						ТВОРЧЕСКИЙ РЕЖИМ	
+invalid_invite_title	a title summarising that the user has tried to connect to a server using invalid data	INVALID INVITE CODE						НЕВЕРНЫЙ КОД ПРИГЛАШЕНИЯ	
+failed_to_create_client_title	a title summarising that a client was not sucessfully created	FAILED TO CREATE CLIENT						НЕ УДАЛОСЬ СОЗДАТЬ КЛИЕНТ	
+client_destroyed_title	a title summarising that a client no longer exists	CLIENT DESTROYED						КЛИЕНТ УНИЧТОЖЕН	
+microcontroller_title	a title for the screen which displays the interface to edit a microcontroller	MICROCONTROLLER						МИКРОКОНТРОЛЛЕР	
+microcontroller_undo	a label for a button which undoes the previous action	Undo						Отменить	
+microcontroller_redo	a label for a button which reapplies a change which was undone by the undo button	Redo						Повторить	
+microcontroller_pause	a label for a button which pauses the execution of the script in the microcontroller	Pause						Пауза	
+microcontroller_resume	a label for a button which resumes the execution of the script in the microcontroller	Resume						Продолжить	
+microcontroller_step_over	a label for a button which executes one line of code while debugging without going into any function invoked by that line	Step Over						Шаг с обходом	
+microcontroller_step_in	a label for a button which executes one line of code while debugging and goes into any function which may be invoked in that line	Step In						Шаг с заходом	
+microcontroller_step_out	a label for a button which moves control while debugging back to the line that called the current function via its return	Step Out						Шаг с выходом	
+microcontroller_save	a label for a button which saves the current configuration of the microcontroller	Save						Сохранить	
+microcontroller_load	a label for a button which loads a configuration into the microcontroller	Load						Загрузить	
+loading_message	a message that appears on the screen explaining that the game data is being loaded	LOADING...						ЗАГРУЗКА...	
+connecting_message	a message that appears on the screen explaining that the client is attempting to connect to the server	CONNECTING...						ПОДКЛЮЧЕНИЕ...	
+waiting_for_connection_message	a message that appears on the screen explaining that the client is waiting for a connection to the server	WAITING FOR CONNECTION...						ОЖИДАНИЕ ПОДКЛЮЧЕНИЯ...	
+notification_unlock_item_title	a title for the notification popup when the player unlocks a new item	ITEM UNLOCKED						ПРЕДМЕТ РАЗБЛОКИРОВАН	
+notification_tutorial_title	a title for the notification popup when displaying the tutorial	ONBOARDING						ОБУЧЕНИЕ	
+notification_tutorial_pick_up_manual	a description of a tutorial step where the player must pick up a manual	Pick up the Game Manual						Подберите игровое руководство	
+notification_tutorial_open_inventory	a description of a tutorial step where the player must open the inventory	Open the Inventory						Откройте инвентарь	
+notification_tutorial_move_manual_into_hotbar	a description of a tutorial step where the player must move the manual to the hotbar	Move the Game Manual to the hotbar						Переместите руководство на панель быстрого доступа	
+notification_tutorial_scroll_onto_manual	a description of a tutorial step where the player must select the manual on the hotbar	Select the Game Manual on the hotbar						Выберите руководство на панели быстрого доступа	
+notification_tutorial_change_manual_page	a description of a tutorial step where the player must change the page in the game manual	Change the page in the Game Manual						Перелистните страницу в руководстве	
+item_category_none	a label for a box containing unsorted items	MISCELLANEOUS						РАЗНОЕ	
+item_category_wearable_hat	a label for a box containing items which are worn on the top of the head	HATS						ГОЛОВНЫЕ УБОРЫ	
+item_category_wearable_body	a label for a box containing items which are worn on the torso	TOPS						ОДЕЖДА (ВЕРХ)	
+item_category_wearable_back	a label for a box containing items which are worn on the back	BACKPACK						РЮКЗАКИ	
+item_category_wearable_legs	a label for a box containing items which are worn on the legs	TROUSERS						ШТАНЫ	
+item_category_wearable_feet	a label for a box containing items which are worn on the feet	SHOES						ОБУВЬ	
+item_category_wearable_head	a label for a box containing items which are worn on the face	MASKS						МАСКИ	
+item_category_wearable_eyes	a label for a box containing items which are worn over the eyes	GLASSES						ОЧКИ	
+item_category_wearable_ears	a label for a box containing items which are worn on the ears	EARWEAR						НА УШИ	
+item_category_wearable_neck	a label for a box containing items which are worn around the neck	NECKWEAR						НА ШЕЮ	
+item_category_wearable_body_over	a label for a box containing items which are worn over a top	VESTS						ЖИЛЕТЫ	
+item_category_wearable_hands	a label for a box containing items which are worn on the hands	GLOVES						ПЕРЧАТКИ	
+item_category_item_food_and_drink	a label for a box containing food and drink items	FOOD & DRINK						ЕДА И НАПИТКИ	
+item_category_item_medical	a label for a box containing medicinal items	MEDICAL						МЕДИЦИНА	
+item_category_item_accessory	a label for a box containing items which can be attached to a vehicle component	ACCESSORY COMPONENTS						АКСЕССУАРЫ	
+item_category_item_paint	a label for a box containing paint tools	PAINT TOOLS						ИНСТРУМЕНТЫ ПОКРАСКИ	
+item_category_item_vehicle_editor	a label for a box containing tools for editing vehicles	VEHICLE EDITING TOOLS						ИНСТРУМЕНТЫ РЕДАКТИРОВАНИЯ ТРАНСПОРТА	
+item_category_item_weapon	a label for a box containing weapon items and their attachments	WEAPON ITEMS						ОРУЖИЕ	
+item_category_item_storage	a label for a box containing pouches, sheaths and holsters	STORAGE ITEMS						ПРЕДМЕТЫ ХРАНЕНИЯ	
+item_category_component_aircraft	a label for a box containing vehicle components relating to aircraft	AIRCRAFT COMPONENTS						АВИАКОМПОНЕНТЫ	
+item_category_component_connector	a label for a box containing vehicle components relating to connecting vehicles	CONNECTOR COMPONENTS						СОЕДИНИТЕЛЬНЫЕ КОМПОНЕНТЫ	
+item_category_component_control	a label for a box containing vehicle components relating to controlling a vehicle	CONTROL COMPONENTS						КОМПОНЕНТЫ УПРАВЛЕНИЯ	
+item_category_component_data	a label for a box containing vehicle components that interact with the data system	DATA COMPONENTS						КОМПОНЕНТЫ ДАННЫХ	
+item_category_component_decorative	a label for a box containing vehicle components relating to decorating a vehicle	DECORATIVE COMPONENTS						ДЕКОРАТИВНЫЕ КОМПОНЕНТЫ	
+item_category_component_electric	a label for a box containing vehicle components relating to managing electrical power	ELECTRIC COMPONENTS						ЭЛЕКТРИЧЕСКИЕ КОМПОНЕНТЫ	
+item_category_component_engine	a label for a box containing vehicle components relating to engines	ENGINE COMPONENTS						КОМПОНЕНТЫ ДВИГАТЕЛЯ	
+item_category_component_gas	a label for a box containing vehicle components relating to managing gases	GAS COMPONENTS						ГАЗОВЫЕ КОМПОНЕНТЫ	
+item_category_component_hydraulic	a label for a box containing vehicle components relating to hydraulics	HYDRAULIC COMPONENTS						ГИДРАВЛИЧЕСКИЕ КОМПОНЕНТЫ	
+item_category_component_interface	a label for a box containing vehicle components which take inputs from and display outputs to the player.	INTERFACE COMPONENTS						ИНТЕРФЕЙСНЫЕ КОМПОНЕНТЫ	
+item_category_component_light	a label for a box containing vehicle components which emit light	LIGHT COMPONENTS						ОСВЕТИТЕЛЬНЫЕ КОМПОНЕНТЫ	
+item_category_component_liquid	a label for a box containing vehicle components relating to managing liquids	LIQUID COMPONENTS						ЖИДКОСТНЫЕ КОМПОНЕНТЫ	
+item_category_component_mechanical	a label for a box containing vehicle components which use, generate and transmit mechanical power	MECHANICAL COMPONENTS						МЕХАНИЧЕСКИЕ КОМПОНЕНТЫ	
+item_category_component_radio	a label for a box containing vehicle components relating to transmitting and receiving data	RADIO COMPONENTS						РАДИОКОМПОНЕНТЫ	
+item_category_component_sensor	a label for a box containing vehicle components which measure and detect values	SENSOR COMPONENTS						КОМПОНЕНТЫ ДАТЧИКОВ	
+item_category_component_sound	a label for a box containing vehicle components relating to sounds	SOUND COMPONENTS						ЗВУКОВЫЕ КОМПОНЕНТЫ	
+item_category_component_storage	a label for a box containing vehicle components relating to storing items	STORAGE COMPONENTS						КОМПОНЕНТЫ ХРАНЕНИЯ	
+item_category_component_torque	a label for a box containing vehicle components which transmit torque	TORQUE COMPONENTS						КОМПОНЕНТЫ КРУТЯЩЕГО МОМЕНТА	
+item_category_component_weapon	a label for a box containing vehicle components relating to weaponry	WEAPON COMPONENTS						ОРУЖЕЙНЫЕ КОМПОНЕНТЫ	
+item_category_component_wheel	a label for a box containing vehicle components relating to wheels	WHEEL COMPONENTS						КОЛЁСНЫЕ КОМПОНЕНТЫ	
+item_category_component_building	a label for a box containing building pieces such as walls and floors	BUILDING COMPONENTS						СТРОИТЕЛЬНЫЕ КОМПОНЕНТЫ	
+item_category_component_furniture	a label for a box containing building furniture components	FURNITURE						МЕБЕЛЬ	
+script_element_whitespace	a label for a script block in a visual programming language. this block adds whitespace to the code	whitespace	espace	Leerzeichen	espacio en blanco	空白	espaço em branco	пробел	空格
+script_element_comment	a label for a script block in a visual programming language. this block adds a comment to the code	comment	commentaire	Kommentar	comentario	コメント	comentário	комментарий	注释
+script_element_integer	a label for a script block in a visual programming language. this block represents an integer value	integer	entier	Ganzzahl	entero	整数	inteiro	целое	整数
+script_element_fractional	a label for a script block in a visual programming language. this block represents a float value	fractional	fraction	Fließkommazahl	número fraccionario	小数	fracionário	дробное число	小数
+script_element_string	a label for a script block in a visual programming language. this block represents a string value	string	chaîne	Zeichenkette	cadena	文字列	cadeia de caracteres	строка	字符串
+script_element_boolean	a label for a script block in a visual programming language. this block represents a boolean value	boolean	booléen	boolesch	booleano	ブール値	booleano	булев	布尔值
+script_element_define_type	a label for a script block in a visual programming language. this block defines a new value type. the first gap (###) is the name of the new type	define ###	définir ###	definiere ###	definir ###	関数 ### を定義	definir ###	определить ###	定义 ###
+script_element_create_member	a label for a script block in a visual programming language. this block defines a new member for a type. the first gap (###) is the type of the new member and the second gap (###) is the name of the new member	create member ### named ###	créer membre ### nommé ###	erstelle Mitglied ### namens ###	crear miembro ### llamado ###	###という名前のメンバーを作成	criar membro ### chamado ###	создать член ### с именем ###	创建名为 ### 的成员 ###
+script_element_event_on_tick	a label for a script block in a visual programming language. this block defines an event which happens every tick	on tick	à chaque tick	bei Tick	en tick	各ティックで	a cada tick	каждое тиканье	在每次滴答时
+script_element_event_on_render	a label for a script block in a visual programming language. this block defines an event which happens every frame	on render						при отрисовке	
+script_element_define_function	a label for a script block in a visual programming language. this block defines a new function. the first gap (###) is the name of the new function	define ###	définir la fonction ###	Funktion ### definieren	definir la función ###	関数 ### を実行	definir função ###	определить функцию ###	定义函数 ###
+script_element_execute_function	a label for a script block in a visual programming language. this block calls a function. the first gap (###) is the name of the function followed by the parameters	execute ###	exécuter ###	Funktion ### ausführen	ejecutar ###	パラメータ ### を作成	executar função ###	выполнить функцию ###	执行函数 ###
+script_element_create_parameter	a label for a script block in a visual programming language. this block creates a new parameter for a function. the first gap (###) is the type of the new parameter and the second gap (###) is the name of the new parameter	create parameter ### named ###	créer un paramètre ### nommé ###	Parameter ### mit dem Namen ### erstellen	crear parámetro ### llamado ###	###の場合	criar parâmetro ### chamado ###	создать параметр ### с именем ###	创建类型为 ###、名称为 ### 的参数
+script_element_if	a label for a script block in a visual programming language. this block starts an if conditional block. the first gap (###) is the condition of the block	if ###	si ###	wenn ###	si ###	それ以外の場合 ###	se ###	если ###	如果 ###
+script_element_else_if	a label for a script block in a visual programming language. this block starts an else if conditional block. the first gap (###) is the condition of the block	else if ###	sinon si ###	sonst wenn ###	si no si ###	または	senão se ###	иначе если ###	否则如果 ###
+script_element_else	a label for a script block in a visual programming language. this block starts an else conditional block	else	sinon	sonst	sino	###を繰り返す	senão	иначе	否则
+script_element_repeat	a label for a script block in a visual programming language. this block starts a repeat conditional block which executes as many times as the condition states. the first gap (###) is the condition of the block	repeat ###	répéter ###	wiederhole ###	repetir ###	###の間	repetir ###	повторить ###	重复 ###
+script_element_foreach	a label for a script block in a visual programming language. this block starts a for each conditional block which loops a number of times equal to the length of a list. the first gap (###) is the list that the block is operating over	foreach item in ###	pour chaque ###	für jedes ###	para cada ###	###という名前の ### を作成	para cada ###	для каждого ###	遍历 ###
+script_element_create_variable	a label for a script block in a visual programming language. this block creates a new variable. the first gap (###) is the type of the new variable and the second gap (###) is the name of the new variable	create ### named ###	créer ### nommé ###	erstelle ### namens ###	crear ### llamado ###	###を###に設定	criar ### chamado ###	создать ### с именем ###	创建名为 ### 的 ###
+script_element_variable_set	a label for a script block in a visual programming language. this block sets the value of a variable. the first gap (###) is the name of the variable and the second gap (###) is the value that the variable is set to	set ### to ###	définir ### à ###	setze ### auf ###	asignar ### a ###	###のリストを作成	definir ### como ###	установить ### как ###	将 ### 设为 ###
+script_element_create_list	a label for a script block in a visual programming language. this block creates a new variable list. the first gap (###) is the type of the new variable list and the second gap (###) is the name of the new variable list	create list of ### named ###	créer liste de ### nommée ###	erstelle Liste von ### namens ###	crear lista de ### llamada ###	###をリストに追加	criar lista de ### chamada ###	создать список из ### с именем ###	创建名为 ### 的 ### 列表
+script_element_list_add	a label for a script block in a visual programming language. this block adds a new element to the end of a list. the first gap (###) is the value to add to the list and the second gap (###) is the name of the list	add ### to list ###	ajouter ### à la liste ###	füge ### zur Liste ### hinzu	añadir ### a la lista ###	リストからインデックス ### の要素を削除	adicionar ### à lista ###	добавить ### в список ###	将 ### 添加到 列表 ###
+script_element_list_remove	a label for a script block in a visual programming language. this block removes an element at an index in a list. the first gap (###) is the name of the list and the second gap (###) is index where the element should be removed	remove from list ### at index ###	supprimer de la liste ### à l’index ###	entferne aus Liste ### bei Index ###	quitar de la lista ### en índice ###	リストをクリア	remover da lista ### no índice ###	удалить из списка ### по индексу ###	从 列表 ### 在 索引 ### 删除
+script_element_list_clear	a label for a script block in a visual programming language. this block clears all the elements from a list. the first gap (###) is the name of the list	clear list ###	vider la liste ###	lösche Liste ###	vaciar lista ###	リストのインデックス ### に ### を挿入	limpar lista ###	очистить список ###	清空 列表 ###
+script_element_list_insert	a label for a script block in a visual programming language. this block adds a new element to a list at an index. the first gap (###) is the value to add to the list, the second gap (###) is the index where the element should be inserted and the third gap (###) is the name of the list	insert ### at index ### of list ###	insérer ### à l’index ### de la liste ###	füge ### bei Index ### in Liste ### ein	insertar ### en la lista ### en el índice ###	新しい整数	inserir ### no índice ### da lista ###	вставить ### по индексу ### в список ###	在 列表 ### 的 索引 ### 插入 ###
+script_element_new_integer	a label for a script block in a visual programming language. this block creates a new constant integer value	new integer	nouvel entier	neue Ganzzahl	nuevo entero	新しい小数	novo inteiro	новое целое	新整数
+script_element_new_fractional	a label for a script block in a visual programming language. this block creates a new constant float value	new fractional	nouvelle fraction	neue Gleitkommazahl	nuevo número fraccionario	新しい文字列	nova fração	новое дробное	新小数
+script_element_new_string	a label for a script block in a visual programming language. this block creates a new constant string value	new string	nouvelle chaîne	neue Zeichenkette	nueva cadena	真	nova cadeia	новая строка	新字符串
+script_element_true	a label for a script block in a visual programming language. this block represents a constant true value	true	vrai	wahr	verdadero	偽	verdadeiro	правда	真
+script_element_false	a label for a script block in a visual programming language. this block represents a constant false value	false	faux	falsch	falso	余り	falso	ложь	假
+script_element_operation_mod	a label for a script block in a visual programming language. this block performs the modulo operation	mod	modulo	Modulo	módulo	かつ	módulo	мод	求模
+script_element_operation_and	a label for a script block in a visual programming language. this block performs the logical and operation	and	et	und	y	または	e	и	与
+script_element_operation_or	a label for a script block in a visual programming language. this block performs the logical or operation	or	ou	oder	o	含む	ou	или	或者
+script_element_operation_contains	a label for a script block in a visual programming language. this block returns if a list contains a particular value	contains	contient	enthält	contiene	非 ###	contém	содержит	包含
+script_element_operation_not	a label for a script block in a visual programming language. this block performs the logical not operation. the first gap (###) is a value	not ###	non ###	nicht ###	no ###	abs ###	não ###	не ###	非 ###
+script_element_operation_abs	a label for a script block in a visual programming language. this block returns the absolute value of a value. the first gap (###) is a value	abs ###	abs ###	abs ###	abs ###	floor ###	abs ###	abs ###	abs ###
+script_element_operation_floor	a label for a script block in a visual programming language. this block performs the floor function on a value. the first gap (###) is a value	floor ###	plancher ###	floor ###	suelo ###	ceil ###	floor ###	floor ###	floor ###
+script_element_operation_ceil	a label for a script block in a visual programming language. this block performs the ceiling function on a value. the first gap (###) is a value	ceil ###	plafond ###	ceil ###	techo ###	round ###	ceil ###	ceil ###	ceil ###
+script_element_operation_round	a label for a script block in a visual programming language. this block rounds a value to the nearest integer. the first gap (###) is a value	round ###	arrondir ###	runde ###	redondear ###	sqrt ###	round ###	round ###	round ###
+script_element_operation_sqrt	a label for a script block in a visual programming language. this block performs square root on a value. the first gap (###) is a value	sqrt ###	racine ###	sqrt ###	raíz cuadrada ###	###の長さ	sqrt ###	sqrt ###	sqrt ###
+script_element_operation_length	a label for a script block in a visual programming language. this block gets the length of a list. the first gap (###) is the name of the list	length of ###	longueur de ###	Länge von ###	longitud de ###	###から###までランダム	comprimento de ###	длина ###	### 的 长度
+script_element_operation_random	a label for a script block in a visual programming language. this block returns a random value between two other values. the first gap (###) is a value and the second gap (###) is another value	random from ### to ###	aléatoire de ### à ###	zufällig von ### bis ###	aleatorio de ### a ###	リストのインデックス ### の要素	aleatório de ### a ###	случайное от ### до ###	从 ### 到 ### 随机
+script_element_operation_list_access	a label for a script block in a visual programming language. this block gets the element at an index in a list. the first gap (###) is the index and the second gap (###) is the name of the list	item at index ### of list ###	élément à l’index ### de la liste ###	Element an Index ### der Liste ###	elemento en índice ### de la lista ###	リスト###のインデックス###の要素	item no índice ### da lista ###	элемент по индексу ### в списке ###	列表 ### 索引 ### 处的 项目
+script_element_operation_to_integer	a label for a script block in a visual programming language. this block that converts from a float to an integer	to integer						в целое	
+script_element_operation_to_fractional	a label for a script block in a visual programming language. this block that converts from an integer to a float	to fractional						в дробное	
+script_element_create_component_ouput	a label for a script block in a visual programming language. this block creates a new output variable that other components can access. the first gap (###) is the type of the new variable and the second gap (###) is the name of the new variable	create output ### named ###						создать выход ### с именем ###	
+script_element_create_component_input	a label for a script block in a visual programming language. this block creates a new input variable that other components can access. the first gap (###) is the type of the new variable and the second gap (###) is the name of the new variable	create input ### named ###						создать вход ### с именем ###	
+script_error_load_failed_incorrect_syntax	an error message for a visual scripting language programming block which explains the script has not loaded correctly due to some syntax errors in the source	Failed to load correctly - syntax errors are present in the script source						Не удалось загрузить — в исходнике скрипта есть синтаксические ошибки	
+script_error_defined_in_incorrect_scope	an error message for a visual scripting language programming block which explains that block is currently in an invalid place	Element is in invalid position						Элемент в недопустимой позиции	
+script_error_type_not_set_on_member	an error message for a visual scripting language programming block which explains that the type has not been set on a member of a type	Type not set on member						Не задан тип у члена	
+script_error_member_not_defined_at_start_of_block	an error message for a visual scripting language programming block which explains that create member block should be at start of current scope	Create member isn't at start of define type						Блок создания члена не в начале определения типа	
+script_error_type_not_set_on_parameter	an error message for a visual scripting language programming block which explains that the type has not been set on a parameter of a function	Type not set on parameter						Не задан тип у параметра	
+script_error_parameter_not_defined_at_start_of_block	an error message for a visual scripting language programming block which explains that create parameter block should be at start of current scope	Create parameter isn't at start of define function						Блок создания параметра не в начале определения функции	
+script_error_missing_element	an error message for a visual scripting language programming block which explains that an element is missing	Element missing						Отсутствует элемент	
+script_error_expected_type_value	an error message for a visual scripting language programming block which explains that a type value is expected	Expecting a type value						Ожидается значение типа	
+script_error_value_type_doesnt_match_parameter	an error message for a visual scripting language programming block which explains that the type of value being passed to a function doesn't match the type of the parameter it is being passed to	Value type doesn't match parameter type						Тип значения не совпадает с типом параметра	
+script_error_function_called_before_declaration	an error message for a visual scripting language programming block which explains that a function has been called before being defined	Function was called before it was declared						Функция вызвана до объявления	
+script_error_type_referenced_before_declaration	an error message for a visual scripting language programming block which explains that a type has been referenced before being defined	Type was referenced before it was declared						Тип использован до объявления	
+script_error_parameter_referenced_before_declaration	an error message for a visual scripting language programming block which explains that a function parameter has been referenced before being defined	Function parameter was referenced before it was declared						Параметр функции использован до объявления	
+script_error_variable_referenced_before_declaration	an error message for a visual scripting language programming block which explains that a variable has been referenced before being defined	Variable was referenced before it was declared						Переменная использована до объявления	
+script_error_member_doesnt_belong_to_parameter_type	an error message for a visual scripting language programming block which explains that a parameter's type doesn't have the member that the block is trying to reference	Member doesn't belong to parameter's type						Член не принадлежит типу параметра	
+script_error_member_doesnt_belong_to_variable_type	an error message for a visual scripting language programming block which explains that a variable's type doesn't have the member that the block is trying to reference	Member doesn't belong to variable's type						Член не принадлежит типу переменной	
+script_error_type_not_supported_in_context	an error message for a visual scripting language programming block which explains that the block doesn't support inputs of that type	Input is an incompatible type						Несовместимый тип входа	
+script_error_input_types_mismatch	an error message for a visual scripting language programming block which explains that the inputs to the block are a combination of types that it cannot process	Input's type is incompatible with another input's type						Тип входа несовместим с типом другого входа	
+script_error_expected_value	an error message for a visual scripting language programming block which explains that a value is expected	Expecting a value						Ожидается значение	
+script_error_expected_boolean_value	an error message for a visual scripting language programming block which explains that a boolean value is expected	Expecting a boolean value						Ожидается логическое значение	
+script_error_expected_integer_value	an error message for a visual scripting language programming block which explains that an integer value is expected	Expecting an integer value						Ожидается целое значение	
+script_error_expected_float_value	an error message for a visual scripting language programming block which explains that a float value is expected	Expecting a fractional value						Ожидается дробное значение	
+script_error_expected_string_value	an error message for a visual scripting language programming block which explains that a string value is expected	Expecting a string value						Ожидается строковое значение	
+script_error_expected_list_value	an error message for a visual scripting language programming block which explains that a list value is expected	Expecting a list value						Ожидается значение-список	
+script_error_expected_integer_or_float_value	an error message for a visual scripting language programming block which explains that a numeric value is expected	Expecting an integer or fractional value						Ожидается целое или дробное значение	
+script_error_expected_string_or_list_value	an error message for a visual scripting language programming block which explains that a string or list is expected	Expecting a string or list value						Ожидается строка или список	
+script_error_missing_connected_element	an error message for a visual scripting language programming block which explains that another element should be connected to this one	Missing connected element						Отсутствует подключённый элемент	
+script_error_connected_element_broken	an error message for a visual scripting language programming block which explains that a connected element is in error state	Connected element has an error						В подключённом элементе ошибка	
+script_error_not_writable_value	an error message for a visual scripting language programming block which explains that a read only value cannot be written to	Value is read only						Значение только для чтения	
+script_error_not_readable_value	an error message for a visual scripting language programming block which explains that a write only value cannot be read from	Value is write only						Значение только для записи	
+script_error_cant_read_value_from_connected_component	an error message for a visual scripting language programming block which explains that the component which is the source of the value cnanot be located	Cannot read value from connected component						Не удаётся прочитать значение из подключённого компонента	
+script_error_identifier_empty	an error messgae for a programmatic identifier which explains that the identifier is an empty string	Identifier has not been set						Идентификатор не задан	
+script_error_identifer_begins_with_invalid_character	an error message for a programmatic identifier which explains that the identifier begins with an invlid character	Identifier does not begin with an alphabetic character or an underscore						Идентификатор должен начинаться с буквы или подчёркивания	
+duplicate_save_title	a title summarising the act of saving a vehicle from the clipboard to file	SAVE CLIPBOARD VEHICLE						СОХРАНИТЬ ТРАНСПОРТ ИЗ БУФЕРА	
+duplicate_delete_title	a title summarising the act of deleting a vehicle save file	DELETE VEHICLE						УДАЛИТЬ ТРАНСПОРТ	
+duplicate_overwrite_title	a title summarising the act of overwriting a vehicle save file	OVERWRITE VEHICLE						ПЕРЕЗАПИСАТЬ ТРАНСПОРТ	
+duplicate_upload_title	a title summarising the act of uploading a vehicle to the Steam Workshop	UPLOAD VEHICLE						ЗАГРУЗИТЬ ТРАНСПОРТ	
+duplicate_upload_vehicle_name_title	a title for inputting the name of a vehicle being uploaded to the Steam Workshop	VEHICLE NAME						НАЗВАНИЕ ТРАНСПОРТА	
+duplicate_upload_tags_title	a title for the tags which can be applied to a vehicle being uploaded to the Steam Workshop	TAGS						ТЕГИ	
+save_script_title	a heading for the screen which displays the options to save a microcontroller script	SAVE SCRIPT						СОХРАНИТЬ СКРИПТ	
+load_script_title	a heading for the screen which displays the options to load a microcontroller script	LOAD SCRIPT						ЗАГРУЗИТЬ СКРИПТ	
+control_hint_inventory_menu_open	a label for an input binding which allows the player to open the inventory	Open Inventory						Открыть инвентарь	
+control_hint_pause_menu_open	a label for an input binding which allows the player to open the pause menu	Open Menu						Открыть меню	
+control_hint_toolbar_left	a label for an input binding which allows the player to navigate leftward on the toolbar	Toolbar Left						Панель влево	
+control_hint_toolbar_right	a label for an input binding which allows the player to navigate rightward on the toolbar	Toolbar Right						Панель вправо	
+control_hint_steering_axis_3	a label for an input binding which allows the player to depress the left pedal in a steering wheel driving system	Left Pedal						Левая педаль	
+control_hint_steering_axis_4	a label for an input binding which allows the player to depress the right pedal in a steering wheel driving system	Right Pedal						Правая педаль	
+control_hint_flight_axis_3	a label for an input binding which allows the player to depress the left pedal in a flight stick driving system	Left Pedal						Левая педаль	
+control_hint_flight_axis_4	a label for an input binding which allows the player to depress the right pedal in a flight stick driving system	Right Pedal						Правая педаль	
+control_hint_programmable_1	a label for an input binding which corresponds to an input which is configurable by the player	Programmable 1						Программируемая 1	
+control_hint_programmable_2	a label for an input binding which corresponds to an input which is configurable by the player	Programmable 2						Программируемая 2	
+control_hint_programmable_3	a label for an input binding which corresponds to an input which is configurable by the player	Programmable 3						Программируемая 3	
+control_hint_push_to_talk	a label for an input binding which allows the player to talk in game using their microphone	Push to talk						Голосовая связь	
+control_hint_drop	a label for an input binding which drops the item currently in the player's hands	Drop						Бросить	
+control_hint_switch_on	a label for an input binding which switches on a device	Switch On						Включить	
+control_hint_switch_off	a label for an input binding which switches on a device	Switch Off						Выключить	
+control_hint_use_on_actor	a label for an input binding which uses the item on another actor	Use on Target						Применить на цель	
+control_hint_use_on_self	a label for an input binding which uses the item on the player themselves	Use on Self						Применить на себя	
+control_hint_raise	a label for an input binding which enables the player to raise the item	Raise Item						Поднять предмет	
+control_hint_lower	a label for an input binding which enables the player to lower the item	Lower Item						Опустить предмет	
+control_hint_drink	a label for an input binding which enables the player to drink the contents of the item	Drink						Пить	
+control_hint_eat	a label for an input binding which enables the player to eat the item	Eat						Есть	
+control_hint_throw	a label for an input binding which enables the player to throw the item	Throw						Бросить	
+control_hint_snap	a label for an input binding which enables the player to snap the item	Snap						Привязать	
+control_hint_attach	a label for an input binding which enables the player to attach an accesory item to a component	Attach						Прикрепить	
+control_hint_detach	a label for an input binding which enables the player to detach an accesory item from a component	Detach						Открепить	
+control_hint_ignite	a label for an input binding which enables the player to ignite the item	Ignite						Поджечь	
+control_hint_pull_pin	a label for an input binding which enables the player to pull the pin on a grenade	Pull Pin						Выдернуть чеку	
+control_hint_load_ammo	a label for an input binding which enables the player to load ammo into a magazine	Load Ammo						Зарядить патроны	
+control_hint_shoot	a label for an input binding which enables the player to shoot a gun	Shoot						Стрелять	
+control_hint_reload	a label for an input binding which enables the player to reload a gun	Reload						Перезарядить	
+control_hint_fill	a label for an input binding which enables the player to fill a container with fluid	Fill						Наполнить	
+control_hint_siphon	a label for an input binding which enables the player to siphon fluid from a container	Siphon						Откачать	
+control_hint_attack	a label for an input binding which enables the player to use the item to attack something	Attack						Атаковать	
+control_hint_place_component	a label for an input binding which enables the player to place a component on a vehicle	Place Component						Разместить компонент	
+control_hint_confirm_placement	a label for an input binding which confirms the placement of a component on a vehicle	Confirm Placement						Подтвердить размещение	
+control_hint_rotate_left	a label for an input binding which enables the player to rotate something to the left	Rotate Left						Повернуть влево	
+control_hint_rotate_right	a label for an input binding which enables the player to rotate something to the  right	Rotate Right						Повернуть вправо	
+control_hint_rotate_up	a label for an input binding which enables the player to rotate something upwards	Rotate Up						Повернуть вверх	
+control_hint_rotate_down	a label for an input binding which enables the player to rotate something downwards	Rotate Down						Повернуть вниз	
+control_hint_cycle_variants	a label for an input binding which enables the player to cycle through variants of the current component	Cycle Variants						Сменить вариант	
+control_hint_begin_edge	a label for an input binding which enables the player to start adding an edge to a vehicle	Begin Edge						Начать ребро	
+control_hint_add_edge	a label for an input binding which enables the player to add an edge to a vehicle	Add Edge						Добавить ребро	
+control_hint_cancel_drag	a label for an input binding which enables the player to cancel the current dragging operation	Cancel Drag						Отменить перетаскивание	
+control_hint_add_edge_to_plate	a label for an input binding which enables the player to add an edge to th eplate they are adding to a vehicle	Add Edge to Plate						Добавить ребро к панели	
+control_hint_add_plate	a label for an input binding which enables the player to add a plate to a vehicle	Add Plate						Добавить панель	
+control_hint_cancel_plate	a label for an input binding which enables the player to cancel the construction of a plate	Cancel Plate						Отменить панель	
+control_hint_hold_to_select_vehicles	a label for an input binding which enables the player to select vehicles to copy	Hold to Select Vehicles						Удерживайте для выбора транспорта	
+control_hint_drag_to_select_vehicles	a label for an input binding which enables the player to select more vehicles to copy	Drag to Select Multiple						Тяните для выбора нескольких	
+control_hint_paste_vehicle	a label for an input binding which enables the player to paste vehicles from the clipboard into the world	Paste Vehicle						Вставить транспорт	
+control_hint_save_to_file	a label for an input binding which opens the vehicle clipboard menu to save a vehicle	Save to File						Сохранить в файл	
+control_hint_load_from_file	a label for an input binding which opens the vehicle clipboard menu to load a vehicle	Load from File						Загрузить из файла	
+control_hint_change_mode	a label for an input binding which changes the mode of the current item in the player's hand	Change Mode						Сменить режим	
+control_hint_inspect	a label for an input binding which opens a ui screen with information about the hovered component	Inspect						Осмотреть	
+control_hint_apply_paint	a label for an input binding which enables the player to apply paint to the surface they are looking at	Apply Paint						Нанести краску	
+control_hint_remove_paint	a label for an input binding which enables the player to remove paint from the surface they are looking at	Remove Paint						Удалить краску	
+control_hint_toggle_window	a label for an input binding which enables the player to toggle the state of a plate between having a window in it and not having a window	Toggle Window						Переключить окно	
+control_hint_toggle_opening	a label for an input binding which enables the player to toggle the state of a plate between having an opening which allows water to flow through and not having an opening	Toggle Opening						Переключить проём	
+control_hint_toggle_hatch	a label for an input binding which enables the player to toggle the state of a plate between being a hatch which can seal matching openings and not being a hatch	Toggle Hatch						Переключить люк	
+control_hint_weld	a label for an input binding which enables the player to weld two vehicles together	Weld						Сварить	
+control_hint_remove_node	a label for an input binding which enables the player to remove a node from a vehicle	Remove Node						Удалить узел	
+control_hint_remove_edge	a label for an input binding which enables the player to remove an edge from a vehicle	Remove Edge						Удалить ребро	
+control_hint_remove_plate	a label for an input binding which enables the player to remove a plate from a vehicle	Remove Plate						Удалить панель	
+control_hint_remove_component	a label for an input binding which enables the player to remove a component from a vehicle	Remove Component						Удалить компонент	
+control_hint_select_logic_node	a label for an input binding which enables the player select a logic node	Select Logic Node						Выбрать логический узел	
+control_hint_modify_logic_link_node	a label for an input binding which enables the player to modify a logic link	Select Logic Link Node						Выбрать узел логической связи	
+control_hint_erase_logic_link	a label for an input binding which enables the player to remove a logic link	Remove Logic Link						Удалить логическую связь	
+control_hint_create_logic_link	a label for an input binding which enables the player to create a logic link	Add Logic Link						Добавить логическую связь	
+control_hint_add_waypoint_to_logic_link	a label for an input binding which enables the player to add a waypoint to a logic link	Add Waypoint						Добавить точку	
+control_hint_tap_to_store_in_inventory	a label for an input binding which enables the player to store a hovered item in their inventory	Tap to Store in Inventory						Нажмите, чтобы убрать в инвентарь	
+control_hint_hold_to_equip	a label for an input binding which enables the player to equip a hovered item	Hold to Equip						Удерживайте, чтобы экипировать	
+control_hint_inspect_inventory	a label for an input binding which enables the player to inspect the inventory of the thing they are looking at	Inspect Inventory						Осмотреть инвентарь	
+control_hint_open	a label for an input binding which enables the player to open the thing they are looking at	Open						Открыть	
+control_hint_close	a label for an input binding which enables the player to close the thing they are looking at	Close						Закрыть	
+control_hint_interact	a label for an input binding which enables the player to interact with the thing they are looking at	Interact						Взаимодействовать	
+control_hint_hold_to_uncover	a label for an input binding which enables the player to uncover a switch	Hold to Uncover						Удерживайте, чтобы открыть	
+control_hint_hold_to_cover	a label for an input binding which enables the player to cover a switch	Hold to Cover						Удерживайте, чтобы закрыть	
+control_hint_tap_to_interact	a label for an input binding which enables the player to interact with something they are looking at	Tap to Interact						Нажмите для взаимодействия	
+control_hint_enter_seat	a label for an input binding which enables the player to get into a seat	Enter Seat						Сесть	
+control_hint_exit_seat	a label for an input binding which enables the player to leave a seat	Exit Seat						Выйти из сиденья	
+control_hint_enter_mount	a label for an input binding which enables the player to attach to a mount	Enter Mount						Занять установку	
+control_hint_exit_mount	a label for an input binding which enables the player to leave a mount	Exit Mount						Покинуть установку	
+control_hint_close_menu	a label for an input binding which enables the player to close the current menu	Close Menu						Закрыть меню	
+control_hint_rotate	a label for an input binding which enables the player to rotate the selected item	Rotate						Повернуть	
+control_hint_enter_grid	a label for an input binding which enables the player to enter a subgrid in the inventory ui	Enter Grid						Войти в сетку	
+control_hint_exit_grid	a label for an input binding which enables the player to exit a subgrid in the inventory ui	Exit Grid						Выйти из сетки	
+control_hint_confirm_item	a label for an input binding which enables the player to confirm placing an item in the inventory	Confirm Item Placement						Подтвердить размещение предмета	
+control_hint_start_drag	a label for an input binding which enables the player to start dragging an item	Start Drag						Начать перетаскивание	
+control_hint_swap_items	a label for an input binding which enables the player to swap the dragged itme with the item in the destination	Swap Items						Поменять предметы	
+control_hint_combine_stacks	a label for an input binding which enables the player to merge the stack of items they are dragging with the stack of items they are hovering	Combine Stacks						Объединить стопки	
+control_hint_clear_slot	a label for an input binding which enables the player to clear a hotbar slot	Clear Slot						Очистить слот	
+control_hint_page_left	a label for an input binding which enables the player to flick over the page in the game manual by one to the left	Page Left						Страница влево	
+control_hint_page_right	a label for an input binding which enables the player to flick over the page in the game manual by one to the right	Page Right						Страница вправо	
+control_hint_add_breakpoint	a label for an input binding which enables the player to set a breakpoint on a visual scripting programming block in the microcontroller ui	Add Breakpoint						Добавить точку останова	
+control_hint_remove_breakpoint	a label for an input binding which enables the player to remove a breakpoint on a visual scripting programming block in the microcontroller ui	Remove Breakpoint						Удалить точку останова	
+control_hint_insert_element	a label for an input binding which enables the player to insert a visual scripting programming block in the microcontroller ui	Insert Element						Вставить элемент	
+control_hint_delete_element	a label for an input binding which enables the player to delete a visual scripting programming block in the microcontroller ui	Delete Element						Удалить элемент	
+control_hint_replace_element	a label for an input binding which enables the player to replace a visual scripting programming block in the microcontroller ui	Replace Element						Заменить элемент	
+control_hint_edit_element	a label for an input binding which enables the player to edit a visual scripting programming block in the microcontroller ui	Edit Element						Редактировать элемент	
+control_hint_confirm_edit	a label for an input binding which enables the player to confirm an edit to a visual scripting programming block in the microcontroller ui	Confirm Edit						Подтвердить изменение	
+control_hint_repair	a label for an input binding which enables the player to repair a component	Repair						Починить	
+control_hint_page_left								Страница влево	
+control_hint_page_right								Страница вправо	
+control_hint_jump_section	a label for an input binding which enables the player to flick over the page in the game manual to the next section	Jump to Next Section						К следующему разделу	
+control_hint_start_transmit	a label for an input binding which enables the player to transmit their microphone output	Start Transmit						Начать передачу	
+control_hint_end_transmit	a label for an input binding which ends the player transmitting their microphone output	End Transmit						Завершить передачу	
+control_hint_change_channel	a label for an input binding which ends the player to change the radio channel they are transmitting on	Change Channel						Сменить канал	
+control_hint_exit_element	a label for an input binding which uncaptures the currently captured element on the screen	Exit Element						Выйти из элемента	
+control_hint_select_color	a label for an input binding which allows the player to select a color from a palette for painting	Select Color						Выбрать цвет	
+control_hint_paint_cell	a label for an input binding which allows the player to paint a cell in an editor	Paint Cell						Закрасить ячейку	
+control_hint_stop_paint	a label for an input binding which ends the painting action in the editor	Stop Paint						Закончить покраску	
+control_hint_sample_color	a label for an input binding which allows the player to set their selected color to match the color of the hovered cell in the insignia	Sample Color						Взять цвет	
+control_hint_edit_insignia	a label for an input binding which allows the player to open the insignia editor to modify an insignia	Edit Insignia						Редактировать эмблему	
+insignia_title	a title for the screen which displays the interface to edit an insignia	INSIGNIA						ЭМБЛЕМА	
+insignia_width	a label for modifying the width of an insignia	WIDTH						ШИРИНА	
+insignia_height	a label for modifying the height of an insignia	HEIGHT						ВЫСОТА	
+insignia_save	a label for a button which saves the current insignia	Save						Сохранить	
+insignia_load	a label for a button which loads an insignia into the editor	Load						Загрузить	
+save_insignia_title	a heading for the screen which displays the options to save an insignia	SAVE						СОХРАНИТЬ	
+load_insignia_title	a heading for the screen which displays the options to load an insignia	LOAD						ЗАГРУЗИТЬ	
+save_insignia_are_you_sure_you_want_to_overwrite	a yes-no question asking the user if they want to overwrite a saved insignia file	Are you sure you want to overwrite this insignia?						Вы уверены, что хотите перезаписать эту эмблему?	
+language_english	a label for a language option which sets all of the text in the game to English	English						Английский	
+language_french	a label for a language option which sets all of the text in the game to French	French						Французский	
+language_german	a label for a language option which sets all of the text in the game to German	German						Немецкий	
+language_spanish	a label for a language option which sets all of the text in the game to Spanish	Spanish						Испанский	
+language_japanese	a label for a language option which sets all of the text in the game to Japanese	Japanese						Японский	
+language_brazilian_portuguese	a label for a language option which sets all of the text in the game to Brazilian Portuguese	Brazilian Portuguese						Бразильский португальский	
+language_russian	a label for a language option which sets all of the text in the game to Russian	Russian						Русский	
+language_simplified_chinese	a label for a language option which sets all of the text in the game to Simplified Chinese	Simplified Chinese						Упрощённый китайский	
